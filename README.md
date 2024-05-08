@@ -59,8 +59,13 @@ Disclaimer:
 **Things I'd like to do, if I can figure out how to:** 
 
 Add profile pics back:
+
 <img src="./images/actor.jpg" alt="actor-page" width="65%"/>
+
  Add season posters back:
+ 
 <img src="./images/season.jpg" alt="season-poster" width="65%"/>
+
  Turn seasons into a carousel to prevent this behavior:
+ 
 <img src="./images/caroussel.jpg" alt="season-caroussel" width="65%"/>
