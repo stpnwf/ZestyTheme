@@ -38,7 +38,9 @@ Note:
 
  Backdrops need to be enabled in Jellyfin (Settings > Display > Backdrops) for backdrop to display properly.
 
- **If** you change the dafault accent color, _and_ use Jellyfin on mobile, you _will_ want to use a color picker on the background color anywhre in settings and set `--dark-apparent` to that value. Otherwise the backdrop grandient will look broken on mobile.
+ Check `theme.css` to see what each color does.
+ 
+ **If** you change the dafault accent color, **and** use Jellyfin on mobile, you **will** want to use a color picker on the background color anywhre in settings and set `--dark-apparent` to that value. Otherwise the backdrop grandient will look broken on mobile.
 
 ---
 
