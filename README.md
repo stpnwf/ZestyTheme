@@ -13,6 +13,7 @@ Screenshots:
 <img src="./images/nice-guys.jpg" alt="movies" width="100%"/>
 <img src="./images/avatar.jpg" alt="tv-shows" width="100%"/>
 <img src="./images/player.jpg" alt="player" width="100%"/>
+<img src="./images/login.jpg" alt="login" width="100%"/>
 <img src="./images/phone.jpg" alt="phone" width="100%"/>
 
 ---
@@ -23,7 +24,7 @@ To add theme to Jellyfin, copy the following line to Dashboard > General > Custo
 
 `@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/theme.css');`
 
-**If** you'd like to change the default colors, replace the RGB values and add these lines as well below @import:
+**If** you'd like to change the default colors, replace the RGB values and add these lines **below** @import:
 
 ```
 :root {--accent: R, G, B;}
