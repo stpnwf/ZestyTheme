@@ -14,7 +14,7 @@ A minimal and elegant theme for Jellyfin based/inspired by [Ultrachromic](https:
 <img src="./images/avatar.jpg" alt="tv-shows" width="100%"/>
 <img src="./images/player.jpg" alt="player" width="100%"/>
 <img src="./images/login.jpg" alt="login" width="100%"/>
-**Mobile**:
+###Mobile:
 <img src="./images/phone.jpg" alt="phone" width="100%"/>
 
 ---
