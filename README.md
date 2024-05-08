@@ -32,11 +32,12 @@ Note:
 Disclaimer:
 
  I am _not_ knowledgeable in CSS, but if the end result looks how I want it to, despite how hacky or messy the code may be, that's still a win in my books... PRs are welcome.
+ 
  Theme has only been tested at 1080p, on both the app and the web interface. So it _may_ look broken on 720p, 2K and 4K.
 
 ---
 
-Things I'd like to do, if I can figure out how to: 
+**Things I'd like to do, if I can figure out how to:** 
 
 <img src="./images/actor.jpg" alt="actor-page" width="65%"/>
 <img src="./images/season.jpg" alt="season-poster" width="65%"/>
