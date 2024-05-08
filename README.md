@@ -40,7 +40,7 @@ Note:
 
  Check `theme.css` to see what each color does.
  
- **If** you change the dafault accent color, **and** use Jellyfin on mobile, you **will** want to use a color picker on the background color anywhre in settings and set `--dark-apparent` to that value. Otherwise the backdrop grandient will look broken on mobile.
+ **If** you change the dafault accent color, **and** use Jellyfin on mobile, you **will** want to use a color picker on the background color anywhere in Settings and set `--dark-apparent` to that value. Otherwise the backdrop grandient will look broken on mobile.
 
 ---
 
