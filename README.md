@@ -7,13 +7,14 @@ A minimal and elegant theme for Jellyfin based/inspired by [Ultrachromic](https:
 
 ---
 
-Screenshots:
+**Screenshots:**
 
 <img src="./images/home.jpg" alt="home" width="100%"/>
 <img src="./images/nice-guys.jpg" alt="movies" width="100%"/>
 <img src="./images/avatar.jpg" alt="tv-shows" width="100%"/>
 <img src="./images/player.jpg" alt="player" width="100%"/>
 <img src="./images/login.jpg" alt="login" width="100%"/>
+Mobile:
 <img src="./images/phone.jpg" alt="phone" width="100%"/>
 
 ---
@@ -37,7 +38,7 @@ To add theme to Jellyfin, copy the following line to Dashboard > General > Custo
 
 ---
 
-Note: 
+Notes: 
 
  Backdrops need to be enabled in Jellyfin (Settings > Display > Backdrops) for backdrop to display properly.
 
@@ -51,12 +52,15 @@ Disclaimer:
 
  I am _not_ knowledgeable in CSS, but if the end result looks how I want it to, despite how hacky or messy the code may be, that's still a win in my books... PRs are welcome.
  
- Theme has only been tested at 1080p, on both the app and the web interface. So it _may_ look broken on 720p, 2K and 4K.
+ Theme has only been tested at 1080p, on both the app and the web interface. So it _may_ look broken on 720p, 2K and 4K screens.
 
 ---
 
 **Things I'd like to do, if I can figure out how to:** 
 
+Add profile pics back:
 <img src="./images/actor.jpg" alt="actor-page" width="65%"/>
+ Add season posters back:
 <img src="./images/season.jpg" alt="season-poster" width="65%"/>
+ Turn seasons into a carousel to prevent this behavior:
 <img src="./images/caroussel.jpg" alt="season-caroussel" width="65%"/>
