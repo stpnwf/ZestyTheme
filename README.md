@@ -23,12 +23,14 @@ To add theme to Jellyfin, copy the following line to Dashboard > General > Custo
 
 **If** you'd like to change the default colors, replace the RGB values and add these lines as well below @import:
 
+```
 :root {--accent: R, G, B;}
 :root {--accent-off: R, G, B;}
 :root {--dark: R, G, B;}
 :root {--darkest: R, G, B;}
 :root {--dark-highlight: R, G, B;}
 :root {--dark-apparent: R, G, B;}
+```
 
 ---
 
@@ -36,7 +38,7 @@ Note:
 
  Backdrops need to be enabled in Jellyfin (Settings > Display > Backdrops) for backdrop to display properly.
 
- **If** you change the dafault accent color, _and_ use Jellyfin on mobile, you _will_ want to use a color picker on the background color anywhre in settings and set --dark-apparent to that value. Otherwise the backdrop grandient will look broken on mobile.
+ **If** you change the dafault accent color, _and_ use Jellyfin on mobile, you _will_ want to use a color picker on the background color anywhre in settings and set `--dark-apparent` to that value. Otherwise the backdrop grandient will look broken on mobile.
 
 ---
 
@@ -53,5 +55,3 @@ Disclaimer:
 <img src="./images/actor.jpg" alt="actor-page" width="65%"/>
 <img src="./images/season.jpg" alt="season-poster" width="65%"/>
 <img src="./images/caroussel.jpg" alt="season-caroussel" width="65%"/>
-
-
