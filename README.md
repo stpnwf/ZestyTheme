@@ -1,6 +1,5 @@
 # ZestyTheme
 
----
 
 A minimal and elegant theme for Jellyfin based/inspired by [Ultrachromic](https://github.com/CTalvio/Ultrachromic), [Glassmorphism](https://github.com/alexyle/jellyfin-theme), [Scyfin](https://github.com/loof2736/scyfin) & [JellyTheme](https://github.com/alexyle/jellyfin-theme).
 
@@ -8,11 +7,11 @@ A minimal and elegant theme for Jellyfin based/inspired by [Ultrachromic](https:
 
 Screenshots:
 
-<img src="./images/home.jpg" alt="home" width="80%"/>
-<img src="./images/nice-guys.jpg" alt="movies" width="80%"/>
-<img src="./images/avatar.jpg" alt="tv-shows" width="80%"/>
-<img src="./images/player.jpg" alt="player" width="80%"/>
-<img src="./images/phone.jpg" alt="phone" width="80%"/>
+<img src="./images/home.jpg" alt="home" width="100%"/>
+<img src="./images/nice-guys.jpg" alt="movies" width="100%"/>
+<img src="./images/avatar.jpg" alt="tv-shows" width="100%"/>
+<img src="./images/player.jpg" alt="player" width="100%"/>
+<img src="./images/phone.jpg" alt="phone" width="100%"/>
 
 ---
 
@@ -38,8 +37,9 @@ Disclaimer:
 ---
 
 Things I'd like to do, if I can figure out how to: 
-<img src="./images/actor.jpg" alt="actor-page" width="55%"/>
-<img src="./images/season.jpg" alt="season-poster" width="55%"/>
-<img src="./images/caroussel.jpg" alt="season-caroussel" width="55%"/>
+
+<img src="./images/actor.jpg" alt="actor-page" width="65%"/>
+<img src="./images/season.jpg" alt="season-poster" width="65%"/>
+<img src="./images/caroussel.jpg" alt="season-caroussel" width="65%"/>
 
 
