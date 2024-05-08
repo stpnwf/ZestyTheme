@@ -24,7 +24,7 @@ To add theme to Jellyfin, copy the following line to Dashboard > General > Custo
 
 `@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/theme.css');`
 
-**If** you'd like to change the default colors, replace the RGB values and add these lines **below** @import:
+**If** you'd like to change the default colors, replace the RGB values and add these lines **underneath** `@import...`:
 
 ```
 :root {--accent: R, G, B;}
