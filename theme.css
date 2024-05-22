@@ -94,12 +94,13 @@
 }
 
 .layout-desktop .detailPageSecondaryContainer {
-  margin: 0 0 1.25em 0;
+  margin: 0 0 0em 0 !important;
+  padding-bottom: 0em !important;
 }
 
 .layout-desktop .itemDetailsGroup {
   margin-top: 0;
-  padding-bottom: 2vh;
+  padding-bottom: 0vh !important;
 }
 
 .layout-desktop a.overview-expand.emby-button {
@@ -165,6 +166,16 @@ button.emby-tab-button:nth-child(3) {
   margin: 1px 11px 0 2px;
   color: rgba(var(--darkest));
 } 
+
+.layout-desktop .detailPagePrimaryContainer .mainDetailButtons {
+  margin: 0em 0;
+} 
+
+.layout-desktop div:not(.sectionTitleContainer-cards) > .sectionTitle-cards {
+	margin: 0;
+	padding-bottom: .2em;
+	padding-top: 1em;
+}
 
 .layout-desktop .material-icons.detailButton-icon.play_arrow {
   color: rgba(var(--darkest));
@@ -239,20 +250,21 @@ a.overview-expand.emby-button {
 
 /* Add padding to description*/
 .layout-desktop .detailSectionContent {
-    margin-top: 1.25vw !important; 
-    padding: 0vw 0vw 1.25vw 1vw !important;
+ /*   margin-top: 1.25vw !important; */
+    padding: 0vw 0vw 0.25vw 1vw !important;
 }
 
 /* makes description and tagline bold */
 .detailSectionContent .tagline {
   font-weight: bold;
   font-size: 125% !important;
-  margin-bottom: 1.5vh;
+  margin-bottom: 0.3vh;
 }
 
 .detailSectionContent .detail-clamp-text, .detailSectionContent .overview {
   font-weight: bold;
   font-size: 125% !important;
+  margin-top: 0.4em;
 }
 
 /* hide imdb, tmdb trakt links */
@@ -974,6 +986,11 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
   font-weight: bold;
 }
 
+/* fix for changes in 10.9.x */
+[dir="ltr"] .cardIndicators {
+  right: 0em;
+}
+
 
 
 /* colorful */
@@ -1294,7 +1311,6 @@ progress {
   }
   .indicator {
     backdrop-filter: blur(2px);
-    margin-right: -4px;     /* fix for changes in 10.9.x */
   }
   
   .paper-icon-button-light:hover:not(.headerButtonRight) {
@@ -2067,7 +2083,7 @@ fieldset {
 
 
 #childrenCollapsible .padded-right {
-	padding-right: 33%;
+	padding-right: 38%;
 }
 
 /* Moves TV shows Up Next to bottom right */
@@ -2080,7 +2096,7 @@ fieldset {
 	padding-left: 2.5em;
 	margin-right: 2.5em;
 	background-color: rgba(var(--darkest),.8);
-	padding-top: .5em;
+	padding-top: .3em;
 	backdrop-filter: blur(4px);
 	position: absolute;
 	/* margin-left: 1.5vw; */
@@ -2230,7 +2246,7 @@ fieldset {
   background-size: contain;
   height: 29vh;
   /*30*/
-  margin-top: calc(45px + 0.5em);
+
 }
 
 /* overlay on top of backdrop in mobile layout */
@@ -2247,7 +2263,7 @@ fieldset {
 
 .layout-mobile .itemBackdrop {
 	background-size: contain;
-	margin-top: calc(45px + 0.5em);
+	margin-top: calc(45px + 0.2em);
 	z-index: -1;
 	content: '';
 }
@@ -2261,7 +2277,8 @@ fieldset {
 }
 
 .layout-mobile .detailPageSecondaryContainer {
-  margin: 0 0 1em 0;
+  margin: 0 0 0em 0;
+  padding-top: 0.5em;
 }
 
 .layout-mobile .overview-expand {
@@ -2364,7 +2381,7 @@ fieldset {
 
 .layout-mobile .detailPagePrimaryContainer {
 	display: block;
-	padding: 2.5rem 1.15rem 2rem;
+  padding: 1.5rem 1.15rem 1rem;
 	position: relative;
 }
 
