@@ -1,0 +1,9 @@
+/* Red color scheme */
+
+:root {--accent: 253, 180, 180;}         /* #FDB4B4 */
+:root {--accent-off: 139, 106, 106;}     /* #8B6A6A */
+:root {--dark: 39, 27, 27;}              /* #271B1B */
+:root {--darkest: 30, 21, 21;}           /* #1E1515 */
+:root {--dark-highlight: 77, 56, 56;}    /* #4D3838 */
+:root {--dark-apparent: 43, 30, 30;}     /* #2B1E1E */
+

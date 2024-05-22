@@ -1,0 +1,9 @@
+/* Purple color scheme */
+
+:root {--accent: 216, 196, 241;}         /* #D8C4F1 */
+:root {--accent-off: 123, 116, 132;}     /* #221F26 */
+:root {--dark: 34, 31, 38;}              /* #7B7484 */
+:root {--darkest: 26, 24, 30;}           /* #1A181E */
+:root {--dark-highlight: 67, 62, 73;}    /* #433E49 */
+:root {--dark-apparent: 36, 33, 41;}     /* #242129 */
+

@@ -1,0 +1,9 @@
+/* Green color scheme */
+
+:root {--accent: 184, 242, 197;}         /* #B8F2C5 */
+:root {--accent-off: 109, 132, 114;}     /* #6D8472 */
+:root {--dark: 27, 36, 29;}              /* #1B241D */
+:root {--darkest: 19, 28, 22;}           /* #131C16 */
+:root {--dark-highlight: 59, 69, 60;}    /* #3B453C */
+:root {--dark-apparent: 31, 41, 33;}     /* #1F2921 */
+

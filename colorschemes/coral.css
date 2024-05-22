@@ -1,0 +1,8 @@
+/* Coral color scheme */
+
+:root {--accent: 252, 200, 180;}         /* #FCC8B4 */
+:root {--accent-off: 138, 115, 106;}     /* #8A736A */
+:root {--dark: 39, 30, 27;}              /* #271e1b */
+:root {--darkest: 30, 23, 21;}           /* #1E1715 */
+:root {--dark-highlight: 76, 62, 57;}    /* #4C3E39 */
+:root {--dark-apparent: 43, 34, 30;}     /* #2B221E */

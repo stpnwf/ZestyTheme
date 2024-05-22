@@ -1,0 +1,9 @@
+/* Yellow color scheme */
+
+:root {--accent: 228, 253, 203;}         /* #E4FDCB */
+:root {--accent-off: 139, 149, 107;}     /* #8B956B */
+:root {--dark: 32, 35, 30;}              /* #20231E */
+:root {--darkest: 24, 28, 21;}           /* #181C15 */
+:root {--dark-highlight: 68, 76, 60;}    /* #444C3C */
+:root {--dark-apparent: 38, 43, 34;}     /* #262B22 */
+

@@ -1,0 +1,9 @@
+/* Gray color scheme */
+
+:root {--accent: 255, 255, 255;}         /* #FFFFFF */
+:root {--accent-off: 141, 141, 141;}     /* #8D8D8D */
+:root {--dark: 32, 32, 32;}              /* #202020 */
+:root {--darkest: 25, 25, 25;}           /* ##191919 */
+:root {--dark-highlight: 65, 65, 65;}    /* #414141 */
+:root {--dark-apparent: 43, 43, 43;}     /* #2B2B2B */
+
