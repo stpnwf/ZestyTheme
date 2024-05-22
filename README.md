@@ -29,7 +29,7 @@ To add theme to Jellyfin, copy the following line to Dashboard > General > Custo
 <img src="./colorschemes/images/electric-cyan.png" alt="default" width="30%"/>
 
 
-Plus **one** of the following lines **if** you'd like to change the default colors to one of the presets:
+Plus **one** of the following lines **if** you'd like to change the default colors to one of the presets below:
 
 
 `@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/blue.css');`
