@@ -2,9 +2,23 @@
 
 ---
 
-**Screenshots:**
+**Template Colors:**
 
-<img src="./images/colors.jpg" alt="home" width="100%"/>
+<img src="./colorschemes/images/electric-cyan.png" alt="default" width="40%"/>
+
+<img src="./colorschemes/images/blue.png" alt="blue" width="40%"/>
+
+<img src="./colorschemes/images/coral.png" alt="coral" width="40%"/>
+
+<img src="./colorschemes/images/gray.png" alt="gray" width="40%"/>
+
+<img src="./colorschemes/images/green.png" alt="green" width="40%"/>
+
+<img src="./colorschemes/images/purple.png" alt="purple" width="40%"/>
+
+<img src="./colorschemes/images/red.png" alt="red" width="40%"/>
+
+<img src="./colorschemes/images/yellow.png" alt="yellow" width="40%"/>
 
 ---
 

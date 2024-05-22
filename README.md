@@ -25,31 +25,47 @@ Mobile:
 To add theme to Jellyfin, copy the following line to Dashboard > General > Custom CSS:
 
 `@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/theme.css');`
-<img src="./colorschemes/images/electric-cyan.png" alt="default" width="20%"/>
+
+<img src="./colorschemes/images/electric-cyan.png" alt="default" width="30%"/>
+
 
 Plus **one** of the following lines **if** you'd like to change the default colors to one of the presets:
 
 
 `@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/blue.css');`
-<img src="./colorschemes/images/blue.png" alt="blue" width="20%"/>
+
+<img src="./colorschemes/images/blue.png" alt="blue" width="30%"/>
+
 
 `@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/coral.css');`
-<img src="./colorschemes/images/coral.png" alt="coral" width="20%"/>
+
+<img src="./colorschemes/images/coral.png" alt="coral" width="30%"/>
+
 
 `@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/gray.css');`
-<img src="./colorschemes/images/gray.png" alt="gray" width="20%"/>
+
+<img src="./colorschemes/images/gray.png" alt="gray" width="30%"/>
+
 
 `@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/green.css');`
-<img src="./colorschemes/images/green.png" alt="green" width="20%"/>
+
+<img src="./colorschemes/images/green.png" alt="green" width="30%"/>
+
 
 `@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/purple.css');`
-<img src="./colorschemes/images/purple.png" alt="purple" width="20%"/>
+
+<img src="./colorschemes/images/purple.png" alt="purple" width="30%"/>
+
 
 `@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/red.css');`
-<img src="./colorschemes/images/red.png" alt="red" width="20%"/>
+
+<img src="./colorschemes/images/red.png" alt="red" width="30%"/>
+
 
 `@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/yellow.css');`
-<img src="./colorschemes/images/yellow.png" alt="yellow" width="20%"/>
+
+<img src="./colorschemes/images/yellow.png" alt="yellow" width="30%"/>
+
 
 Then enable Backdrops in Jellyfin (Settings > Display > Backdrops) if you haven't already.¹ 
 
