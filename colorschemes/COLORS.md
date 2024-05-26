@@ -1,5 +1,7 @@
 # Color schemes
 
+Inspired by the [Zorin OS](https://zorin.com/os/) [color schemes](https://github.com/ZorinOS/zorin-desktop-themes)
+
 ---
 
 **Template Colors:**
