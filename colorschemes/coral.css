@@ -6,3 +6,6 @@
 :root {--darkest: 30, 23, 21;}           /* #1E1715 */
 :root {--dark-highlight: 76, 62, 57;}    /* #4C3E39 */
 :root {--dark-apparent: 43, 34, 30;}     /* #2B221E */
+
+#loginPage {background: url(https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/pattern-coral.png) !important;}
+

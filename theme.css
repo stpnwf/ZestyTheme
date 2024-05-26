@@ -1437,13 +1437,16 @@ progress {
     margin-right: auto !important;
     margin-bottom: 1.2em !important;
 }
-#loginPage {
-  background: url(https://i.imgur.com/NzrSCuv.png) !important;   /* previously https://i.imgur.com/9vL4iNf.png https://i.imgur.com/T4zHTDI.jpeg */
-  background-size: cover !important;
-}
 
 #loginPage .pageTitleWithDefaultLogo {
   display: none !important;
+}
+
+/* set login wallpaper */
+
+#loginPage {
+  background: url(https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/pattern-default.png) !important;  /* previously https://i.imgur.com/NzrSCuv.png   original   https://i.imgur.com/T4zHTDI.jpeg */
+  background-size: cover !important;
 }
 
 /* margin to Jellyfin logo */
@@ -2034,7 +2037,8 @@ fieldset {
 	display: none;
 }
 
-.adminDrawerLogo img { content: url(https://i.imgur.com/wHaGTm4.png) !important; } imgLogoIcon { content: url(https://i.imgur.com/wHaGTm4.png) !important; } .pageTitleWithLogo { background-image: url(https://i.imgur.com/wHaGTm4.png) !important; } /* dark variant https://i.imgur.com/QXXfCCs.png */
+/* replaces Jellyfin logo */
+.adminDrawerLogo img { content: url(https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/logo/jellyfin-logo-light.png) !important; } imgLogoIcon { content: url(https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/logo/jellyfin-logo-light.png) !important; } .pageTitleWithLogo { background-image: url(https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/logo/jellyfin-logo-light.png) !important; } /* imgur link https://i.imgur.com/wHaGTm4.png */
 
 
 /* Support for Jellyscrub plugin */

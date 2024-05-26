@@ -7,3 +7,5 @@
 :root {--dark-highlight: 65, 65, 65;}    /* #414141 */
 :root {--dark-apparent: 43, 43, 43;}     /* #2B2B2B */
 
+#loginPage {background: url(https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/pattern-gray.png) !important;}
+
