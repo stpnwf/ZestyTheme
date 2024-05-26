@@ -204,15 +204,20 @@ button.emby-tab-button:nth-child(3) {
 /* Resize cast, scenes and similar movies */
 
 .layout-desktop #castContent .card.overflowPortraitCard {
-font-size:95%!important;
-width: 13.6em !important;
+  font-size:95%!important;
+  width: 13.6em !important;
+}
+
+.layout-desktop #guestCastContent .card.overflowPortraitCard {
+  font-size:95%!important;
+  width: 13.6em !important;
 }
 
 .layout-tv #castContent .card.overflowPortraitCard {
-    font-size: 90%!important;
-    width: 13em !important;
-    margin-left: -1.6vw !important;
-    height: 30vh;
+  font-size: 90%!important;
+  width: 13em !important;
+  margin-left: -1.6vw !important;
+  height: 30vh;
 }
 
 .layout-desktop #similarCollapsible .card.overflowPortraitCard{
@@ -220,7 +225,7 @@ width: 13.6em !important;
 }
 
 .layout-desktop #scenesContent .card.itemAction.chapterCard{
-  width: 29.1em !important;
+  width: 27.1em !important;
 }
 
 
