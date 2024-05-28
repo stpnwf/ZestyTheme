@@ -17,11 +17,11 @@ If applicable, list the steps to reproduce the behavior:
 3. Scroll down to '....'
 4. See 🐞🪳🪲
 
-**Are you using any extra code in your "Custom CSS" field?**
-If yes, please include it here. 
-
-** On a Smartphone or Tablet? **
+**On a Smartphone or Tablet?**
  - Device:   [e.g. iPhone 12, iPad Air, etc]
+
+**Are you using any extra code in your "Custom CSS" field?**
+If yes, please include it here.
 
 **Screenshots**
 A picture is worth a thousand words...
