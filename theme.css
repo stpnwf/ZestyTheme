@@ -2253,7 +2253,7 @@ fieldset {
 /* arregalndo padding y margin y aumentando tamano de fanart y agregando degradado */
 .layout-mobile .itemBackdrop {
   background-size: contain;
-  height: 62vw;
+  height: 61.5vw;
 }
 
 /* overlay on top of backdrop in mobile layout */
