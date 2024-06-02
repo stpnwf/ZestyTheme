@@ -2253,9 +2253,7 @@ fieldset {
 /* arregalndo padding y margin y aumentando tamano de fanart y agregando degradado */
 .layout-mobile .itemBackdrop {
   background-size: contain;
-  height: 29vh;
-  /*30*/
-
+  height: 62vw;
 }
 
 /* overlay on top of backdrop in mobile layout */
@@ -2264,7 +2262,7 @@ fieldset {
   right: 0;
   left: 0;
   bottom: 0;
-  height: 29vh;
+  height: 100%;
   position: absolute;
   z-index: -1;
   background-image:linear-gradient(to top, rgba(var(--dark-apparent),1) 9.5%, rgba(var(--dark-apparent),0.6) 12%, rgba(var(--dark-apparent),0) 14%), linear-gradient(to bottom, rgba(var(--dark-apparent),1) 1%, rgba(var(--dark-apparent),0) 7%);
@@ -2583,3 +2581,4 @@ margin-bottom: -5px;
 	  padding-right: 0%;
   }
 }
+
