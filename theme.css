@@ -200,6 +200,14 @@ button.emby-tab-button:nth-child(3) {
     color: rgba(var(--honey-yellow), 0.8);
 }
 
+/* tweaks to parental ratings */
+.mediaInfoOfficialRating {
+    border: 1px solid rgba(var(--white), 1);
+    border-radius: 7px;
+    background-color: rgba(var(--white), 0.13);
+    color: rgba(var(--white), 1);
+    font-size: 109%;
+}
 
 /* Resize cast, scenes and similar movies */
 
@@ -2013,6 +2021,18 @@ fieldset {
 }
 
 
+/* fix for Media (small) cards in home screen */
+#homeTab .homeLibraryButton {
+	background: rgba(var(--accent),.4) !important;
+}
+#homeTab .homeLibraryButton:hover {
+	background: rgba(var(--accent),.6) !important;
+	color: rgba(var(--darkest),1) !important;
+	border-radius: var(--rounding) !important;
+}
+#homeTab .homeLibraryIcon {
+  margin-left: 0em;
+}
 
 
 .cardOverlayButtonIcon {
@@ -2209,8 +2229,8 @@ fieldset {
 .layout-mobile .detailLogo {
   display: block;
   width: 15em;
-  left: 5%;
-  top: 18vh;
+  left: 4%;
+  top: 35vw;
 }
 
 /* Mismo color de fondo a franja gris */
@@ -2581,4 +2601,84 @@ margin-bottom: -5px;
 	  padding-right: 0%;
   }
 }
+@media (orientation: landscape) and (min-width: 48.125em){
+   .layout-mobile .overflowBackdropCard, .layout-mobile .overflowSmallBackdropCard {
+      width: 29vw !important;
+  }
+}
 
+/* tablet support */
+@media (min-width: 60em) and (orientation: landscape) { 
+  .layout-mobile .detailLogo {
+      display: block;
+      width: 36em;
+      left: 2%;
+      top: 32vw;
+      height: 38vh;
+  }
+  .layout-mobile [dir="ltr"] .infoWrapper {
+    padding-top: 0em !important;
+  }
+  .layout-mobile .detailPagePrimaryContainer {
+    display: block;
+    padding: 0rem 1.15rem 1rem;
+    position: relative;
+  }
+}
+
+@media (min-width: 75em) and (orientation: landscape) { 
+    .layout-mobile .detailLogo {
+      width: 42em;
+  }
+  .layout-mobile .itemName.parentNameLast {
+      margin: 0 0 .4em;
+  }
+
+@media (min-width: 45em) and (orientation: portrait) { 
+  .layout-mobile .detailLogo {
+      display: block;
+      width: 27em;
+      left: 2%;
+      top: 44vw;
+      height: 13vw;
+  }
+    .layout-mobile [dir="ltr"] .infoWrapper {
+    padding-top: 0% !important;
+  }
+  .layout-mobile .detailPagePrimaryContainer {
+    display: block;
+    padding: 2rem 1.15rem 1rem;
+    position: relative;
+  }
+  .layout-mobile .itemName.parentNameLast.withOriginalTitle {
+    margin: 0em 0 0;
+  }
+  .layout-mobile [dir=ltr] .mainDetailButtons {
+    padding-left: 1%;
+  } 
+}
+
+@media (min-width: 63em) and (orientation: portrait) { 
+  .layout-mobile .detailLogo {
+    display: block;
+    width: 28em;
+    left: 1.5%;
+    top: 44vw;
+    height: 13vw;
+  }
+  .layout-mobile .detailPagePrimaryContainer {
+    display: block; 
+    padding: 0rem 1.15rem 1rem;
+    position: relative;
+  }
+  .layout-mobile .itemBackdrop {
+    margin-bottom: -3.5em;
+  }
+}
+
+/* fix for logo not showing up in desktop mode on tablets */
+@media (max-width: 68.75em){
+  .detailLogo {
+      display: inherit;
+  }
+}
