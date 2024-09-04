@@ -35,169 +35,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); body, h1, h2, h3, h4 {
   font-family: 'Quicksand', sans-serif;
-}
-
-
-/*  ###### Desktop Layout ##### */
-
-
-.layout-desktop .detailLogo {
-  left: 5%;
-  background-position: left;
-}
-
-.detailLogo {
-	height: 16vh;
-	position: absolute;
-	right: 25vw;
-	top: 10vh;
-	width: 34em;
-}
-
-.layout-desktop .itemBackdrop {
-  background-attachment: scroll;
-  background-position: center;
-  background-image: none !important;
-  background-size: cover;
-  height: 100vh;
-  position: relative;
-}
-
-.layout-desktop .detailPageWrapperContainer {
-  margin-top: -71vh;
-  /* inicial: 73 */
-}
-
-.layout-desktop .detailImageContainer .card,
-.layout-desktop .itemTags {
-  display: none;
-}
-
-.detailsGroupItem.writersGroup,
-.detailsGroupItem.studiosGroup {
-  display: none;
-}
-
-.layout-desktop .detailPagePrimaryContainer,
-.layout-desktop .detailPageContent {
-  padding-left: 5%;
-}
-
-.layout-desktop .detailPagePrimaryContent {
-  width: 45%;
-}
-
-.layout-desktop .detailPagePrimaryContainer {
-  display: inline-table;
-  z-index: 2;
-  left: 5%;
-}
-
-.layout-desktop .detailPageSecondaryContainer {
-  margin: 0 0 0em 0 !important;
-  padding-bottom: 0em !important;
-}
-
-.layout-desktop .itemDetailsGroup {
-  margin-top: 0;
-  padding-bottom: 0vh !important;
-}
-
-.layout-desktop a.overview-expand.emby-button {
-  margin: none;
-  padding: none;
-}
-
-
-.layout-desktop .itemName.originalTitle {
-  display: none;
-}
-
-.layout-desktop .itemName,
-.layout-mobile .itemName {
-  font-weight: normal;
-}
-
-.infoWrapper {
-  margin-bottom: 3vh;
-}
-
-/* hides trailes tab */
-button.emby-tab-button:nth-child(3) {
-  display: none;
-}
-
-/* Hides track selection box */
-
-.trackSelections {
-    display: none;
-}
-
-/* header transparent */
-
-.skinHeader.semiTransparent {
-    background-color: transparent;
-}
-
-.skinHeader-withBackground {
-    background-color: transparent;
-}
-
-/* Prominent play button */
-
-.layout-desktop .btnPlay {
-    background-color: rgb(var(--white));
-    color: rgb(var(--darkest)) !important;
-    margin-right: 3vw !important;
-    border-radius: 14px !important;
-}
-
-.layout-desktop .btnPlay:hover {
-  background-color: rgba(var(--accent));
-  color: rgb(var(--darkest)) !important;
-}
-
-.layout-desktop .mainAnimatedPages .paging {
-  margin-right: 1em !important;
-}
-
-.layout-desktop .detailPagePrimaryContainer .mainDetailButtons .btnPlay::after {
-  content: attr(title);
-  margin: 1px 11px 0 2px;
-  color: rgba(var(--darkest));
-} 
-
-.layout-desktop .detailPagePrimaryContainer .mainDetailButtons {
-  margin: 0em 0;
-} 
-
-.layout-desktop div:not(.sectionTitleContainer-cards) > .sectionTitle-cards {
-	margin: 0;
-	padding-bottom: .2em;
-	padding-top: 1em;
-}
-
-.layout-desktop .material-icons.detailButton-icon.play_arrow {
-  color: rgba(var(--darkest));
-}
-
-.layout-desktop .btnPlay.detailButton {
-  flex-direction: row;
-}
-
-.layout-desktop .listViewUserDataButtons {
-  display: none;
-}
-
-/* Hide shuffle and replay buttons in media page */
-
-.btnShuffle, .btnReplay {
-  display: none;
-}
-
-/* change Rating star, color */
-.starIcon {
-    color: rgba(var(--honey-yellow), 0.8);
+}w
 }
 
 /* tweaks to parental ratings */
@@ -319,7 +157,6 @@ a.overview-expand.emby-button {
     backdrop-filter: blur(50px) !important;
 }
 
-
 /* change button hover color */
 .raised:hover, .fab:hover, a[data-role="button"]:hover {
   background: rgba(var(--accent), 0.95) !important;
@@ -406,7 +243,6 @@ a.overview-expand.emby-button {
 	margin: 0.35em;
 }
 
-
 .css-1ip8vbj {
 	border-radius: var(--rounding);
 	margin: 0.35em;
@@ -431,12 +267,6 @@ a.overview-expand.emby-button {
 .listItemIcon:not(.listItemIcon-transparent) {
 	margin: 0 0.2em 0 0.1em;
 }
-
-/* adds padding to server info in Settings > Dashboard 
-#serverName, #versionNumber, #operatingSystem, #architecture {
-  padding-left: 1em;
-}
-*/
 
 /* fixes the above applying rounding to the checkboxlist in settings */
 .checkboxList.paperList {
@@ -488,7 +318,6 @@ a.overview-expand.emby-button {
 	background-color: rgba(var(--accent), 0.75);
 	color: rgb(var(--darkest));
 }
-
 
 /* Dashboard Devices > Activity */
 
@@ -2176,6 +2005,10 @@ fieldset {
   background-color: rgba(190, 80, 10, 0);
 }
 
+.layout-mobile .headerLeft .paper-icon-button-light > .material-icons {
+  filter: drop-shadow(2px 2px 1.6px rgb(var(--darkest)));
+}
+
 .layout-mobile .emby-button-foreground {
   top: 0px !important;
 }
@@ -2230,7 +2063,7 @@ fieldset {
   display: block;
   width: 15em;
   left: 4%;
-  top: 35vw;
+  top: 45vw;
 }
 
 /* Mismo color de fondo a franja gris */
@@ -2276,24 +2109,8 @@ fieldset {
   height: 61.5vw;
 }
 
-/* overlay on top of backdrop in mobile layout */
-.layout-mobile .itemBackdrop::before {
-  content: '';
-  right: 0;
-  left: 0;
-  bottom: 0;
-  height: 100%;
-  position: absolute;
-  z-index: -1;
-  background-image:linear-gradient(to top, rgba(var(--dark-apparent),1) 9.5%, rgba(var(--dark-apparent),0.6) 12%, rgba(var(--dark-apparent),0) 14%), linear-gradient(to bottom, rgba(var(--dark-apparent),1) 1%, rgba(var(--dark-apparent),0) 7%);
-}
 
-.layout-mobile .itemBackdrop {
-	background-size: contain;
-	margin-top: calc(45px + 0.2em);
-	z-index: -1;
-	content: '';
-}
+
 
 .layout-mobile .detailPageWrapperContainer {
   top: -5em;
@@ -2429,6 +2246,7 @@ fieldset {
 
 .layout-mobile .headerRight {
 	height: 40px !important;
+	filter: drop-shadow(3px 2px 3px rgba(var(--darkest),.35));
 }
 
 /* adds padding to custom css box */
@@ -2565,6 +2383,16 @@ margin-bottom: -5px;
   }
 }
 
+.layout-mobile .itemBackdrop {
+	position: relative;
+	background-size: cover;
+	height: 40vh;
+	margin-top: 0;
+	-webkit-mask-image: linear-gradient(to top, rgba(var(--dark-apparent),0) 2%, rgba(var(--dark-apparent),0.08) 11%, rgba(var(--dark-apparent),0.25) 20%, rgba(var(--dark-apparent),0.45) 28%, rgba(var(--dark-apparent),0.6) 33%, rgba(var(--dark-apparent),1) 48%);
+	mask-image: linear-gradient(to top, rgba(var(--dark-apparent),0) 2%, rgba(var(--dark-apparent),0.08) 11%, rgba(var(--dark-apparent),0.25) 20%, rgba(var(--dark-apparent),0.45) 28%, rgba(var(--dark-apparent),0.6) 33%, rgba(var(--dark-apparent),1) 48%);
+	background-position: 70%;
+}
+
 /* Fixes for Mobile Landscape */
 @media only screen and (orientation: landscape) {
   .layout-mobile .itemBackdrop {
@@ -2575,14 +2403,18 @@ margin-bottom: -5px;
       height: 10vw;
   }
   
-  .layout-mobile .itemBackdrop::before {
-      height: 100%;
-      top: 0;
-      background-image: linear-gradient(to top, rgba(var(--dark-apparent),1) 3%, rgba(var(--dark-apparent),0.6) 5%, rgba(var(--dark-apparent),0) 8%), linear-gradient(to bottom, rgba(var(--dark-apparent),1) 1%, rgba(var(--dark-apparent),0) 7%);
-  }
+.layout-mobile .itemBackdrop {
+	position: relative;
+	background-size: cover;
+	height: 123vh;
+	margin-top: 0;
+	-webkit-mask-image: linear-gradient(to top, rgba(var(--dark-apparent),0) 2%, rgba(var(--dark-apparent),0.08) 11%, rgba(var(--dark-apparent),0.25) 20%, rgba(var(--dark-apparent),0.45) 28%, rgba(var(--dark-apparent),0.6) 33%, rgba(var(--dark-apparent),1) 48%);
+	mask-image: linear-gradient(to top, rgba(var(--dark-apparent),0) 2%, rgba(var(--dark-apparent),0.08) 11%, rgba(var(--dark-apparent),0.25) 20%, rgba(var(--dark-apparent),0.45) 28%, rgba(var(--dark-apparent),0.6) 33%, rgba(var(--dark-apparent),1) 48%);
+	background-position: 70%;
+}
 
 .layout-mobile .detailPageWrapperContainer {
-    top: -5.5em;
+    top: -19em;
 }
 
   .layout-mobile [dir=ltr] .mainDetailButtons {
@@ -2593,7 +2425,7 @@ margin-bottom: -5px;
       display: block;
       width: 23em;
       left: 2%;
-      top: 61vh;
+      top: 43vh;
       height: 38vh;
   }
   
@@ -2630,6 +2462,7 @@ margin-bottom: -5px;
     .layout-mobile .detailLogo {
       width: 42em;
   }
+
   .layout-mobile .itemName.parentNameLast {
       margin: 0 0 .4em;
   }
@@ -2682,3 +2515,5 @@ margin-bottom: -5px;
       display: inherit;
   }
 }
+
+
