@@ -85,7 +85,7 @@ Plus **one** of the following lines if you'd like to change the default colors t
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/yellow.css');
 ```
 
-For more info on custom colors [click here](./colorschemes/COLORS.md). Or check these out by MakD in the [Zombie Repo](https://github.com/MakD/zombie-release/tree/main#color-palettes).
+For more info on custom colors [click here](./colorschemes/COLORS.md). Or for more colorschemes, made by MakD, check the [Zombie Repo](https://github.com/MakD/zombie-release/tree/main#color-palettes).
 
 ---
 
