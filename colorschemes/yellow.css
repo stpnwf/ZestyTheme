@@ -1,11 +1,13 @@
 /* Yellow color scheme */
 
-:root {--accent: 239, 253, 162;}         /* #EFFDA2 */
-:root {--accent-off: 139, 149, 107;}     /* #8B956B */
-:root {--dark: 32, 35, 30;}              /* #20231E */
-:root {--darkest: 24, 28, 21;}           /* #181C15 */
-:root {--dark-highlight: 68, 76, 60;}    /* #444C3C */
-:root {--dark-apparent: 38, 43, 34;}     /* #262B22 */
+:root {
+  --accent: 239, 253, 162;         /* #EFFDA2 */
+  --accent-off: 139, 149, 107;     /* #8B956B */
+  --dark: 32, 35, 30;              /* #20231E */
+  --darkest: 24, 28, 21;           /* #181C15 */
+  --dark-highlight: 68, 76, 60;    /* #444C3C */
+  --dark-apparent: 38, 43, 34;     /* #262B22 */
+}
 
-#loginPage {background: url(https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/pattern-yellow.png) !important;}
-
+#loginPage {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/pattern-yellow.png") !important;}
+.layout-desktop .backgroundContainer::before {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/gradients/yellow.png") no-repeat center center;}

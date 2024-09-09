@@ -1,6 +1,6 @@
 # ZestyTheme
 
-A minimal and elegant theme for Jellyfin based/inspired by [Ultrachromic](https://github.com/CTalvio/Ultrachromic), [Glassmorphism](https://github.com/alexyle/jellyfin-theme), [Scyfin](https://github.com/loof2736/scyfin) & [JellyTheme](https://github.com/alexyle/jellyfin-theme).
+A minimal and elegant theme for Jellyfin based on [Ultrachromic](https://github.com/CTalvio/Ultrachromic) and inspired by [Glassmorphism](https://github.com/alexyle/jellyfin-theme), [Scyfin](https://github.com/loof2736/scyfin), [JellyTheme](https://github.com/alexyle/jellyfin-theme) & [Zombie](https://github.com/MakD/zombie-release/tree/main).
  
 Compatible with 10.9.x!
 
@@ -18,65 +18,77 @@ Mobile:
 
 ---
 
-### Installing
+## Installing
 
 To add the theme to Jellyfin, copy the following line to Dashboard > General > Custom CSS:
 
-`@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/theme.css');`
+```
+@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/theme.css');
+```
+Then, if you haven't already, enable Backdrops for _every_ device using this theme (Settings > Display > Backdrops).¹ 
 
-<img src="./images/colorschemes/electric-cyan.png" alt="default" width="30%"/>
-   
- 
- 
-Plus **one** of the following lines **if** you'd like to change the default colors to one of the presets below (optional):
+## Colorschemes
 
+Plus **one** of the following lines if you'd like to change the default colors to one of the presets below (optional): 
 
-`@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/blue.css');`
+### Cyan (Default colorscheme)
+<img src="./images/colorschemes/cyan.png" alt="default" width="20%"/>
+<br>
+<br>
 
-<img src="./images/colorschemes/blue.png" alt="blue" width="30%"/>
+### Blue
+<img src="./images/colorschemes/blue.png" alt="blue" width="20%"/>
+```
+@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/blue.css');
+```
 
+### Coral
+<img src="./images/colorschemes/coral.png" alt="coral" width="20%"/>
+```
+@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/coral.css');
+```
 
-`@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/coral.css');`
+### Gray
+<img src="./images/colorschemes/gray.png" alt="gray" width="20%"/>
+```
+@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/gray.css');
+```
 
-<img src="./images/colorschemes/coral.png" alt="coral" width="30%"/>
+### Green
+<img src="./images/colorschemes/green.png" alt="green" width="20%"/>
+```
+@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/green.css');
+```
 
+### Purple
+<img src="./images/colorschemes/purple.png" alt="purple" width="20%"/>
+```
+@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/purple.css');
+```
 
-`@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/gray.css');`
+### Red
+<img src="./images/colorschemes/red.png" alt="red" width="20%"/>
+```
+@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/red.css');
+```
 
-<img src="./images/colorschemes/gray.png" alt="gray" width="30%"/>
+### Yellow
+<img src="./images/colorschemes/yellow.png" alt="yellow" width="20%"/>
+```
+@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/yellow.css');
+```
 
-
-`@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/green.css');`
-
-<img src="./images/colorschemes/green.png" alt="green" width="30%"/>
-
-
-`@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/purple.css');`
-
-<img src="./images/colorschemes/purple.png" alt="purple" width="30%"/>
-
-
-`@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/red.css');`
-
-<img src="./images/colorschemes/red.png" alt="red" width="30%"/>
-
-
-`@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/yellow.css');`
-
-<img src="./images/colorschemes/yellow.png" alt="yellow" width="30%"/>
-
-
-Then enable Backdrops in Jellyfin (Settings > Display > Backdrops) if you haven't already.¹ 
-
-For more info on custom colors [click here](./colorschemes/COLORS.md)
+For more info on custom colors [click here](./colorschemes/COLORS.md). Or check these out by MakD in the [Zombie Repo](https://github.com/MakD/zombie-release/tree/main#color-palettes).
 
 ---
 
 Notes: 
 
- ¹ You must enable Backdrops on *every* device you plan to use this on.
+ ¹ You must enable Backdrops on *every* device you plan to use this on, otherwise theme **WILL** look broken.
 
- Theme is still **WIP**, and may look broken in some areas.
+ This theme looks best with background images whose content is skewed the right. [As demonstrated here](./images/extras/bg-guide.jpg).
+
+ Theme is still **WIP**, and may look broken in some areas. Please report any issues.
 
  I plan to get to theming TV mode (Settings > Display > Display Mode > TV) soon™. Looks broken right now.
 

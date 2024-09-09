@@ -1,11 +1,13 @@
 /* Blue color scheme */
 
-:root {--accent: 189, 230, 251;}         /* #BDE6FB */
-:root {--accent-off: 111, 130, 138;}     /* #6F828A */
-:root {--dark: 30, 37, 41;}              /* #1E2529 */
-:root {--darkest: 23, 29, 32;}           /* #171D20 */
-:root {--dark-highlight: 59, 73, 77;}    /* #3B494D */
-:root {--dark-apparent: 32, 39, 42;}     /* #20272A */
+:root {
+  --accent: 189, 230, 251;         /* #BDE6FB */
+  --accent-off: 111, 130, 138;     /* #6F828A */
+  --dark: 30, 37, 41;              /* #1E2529 */
+  --darkest: 23, 29, 32;           /* #171D20 */
+  --dark-highlight: 59, 73, 77;    /* #3B494D */
+  --dark-apparent: 32, 39, 42;     /* #20272A */
+}
 
-#loginPage {background: url(https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/pattern-blue.png) !important;}
-
+#loginPage {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/pattern-blue.png") !important;}
+.layout-desktop .backgroundContainer::before {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/gradients/blue.png") no-repeat center center;}

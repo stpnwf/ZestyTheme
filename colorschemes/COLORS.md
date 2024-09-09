@@ -6,7 +6,7 @@ Inspired by the [Zorin OS](https://zorin.com/os/) [color schemes](https://github
 
 **Template Colors:**
 
-<img src="./../images/colorschemes/electric-cyan.png" alt="default" width="40%"/>
+<img src="./../images/colorschemes/cyan.png" alt="default" width="40%"/>
 
 <img src="./../images/colorschemes/blue.png" alt="blue" width="40%"/>
 
@@ -28,17 +28,21 @@ Inspired by the [Zorin OS](https://zorin.com/os/) [color schemes](https://github
 
 To add the theme to Jellyfin, copy the following line to Dashboard > General > Custom CSS:
 
-`@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/theme.css');`
+```
+@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/theme.css');
+```
 
-**If** you didn't like any of the presets and would like to have custom colors, replace the R, G, B values and paste it **underneath** the theme's `@import...` line:
+**If** you didn't like any of the presets and would like to have custom colors, replace the R, G, B values below and paste it **underneath** the theme's `@import...` line:
 
 ```
-:root {--accent: R, G, B;}
-:root {--accent-off: R, G, B;}
-:root {--dark: R, G, B;}
-:root {--darkest: R, G, B;}
-:root {--dark-highlight: R, G, B;}
-:root {--dark-apparent: R, G, B;}
+:root {
+    --accent: R, G, B;
+    --accent-off: R, G, B;
+    --dark: R, G, B;
+    --darkest: R, G, B;
+    --dark-highlight: R, G, B;
+    --dark-apparent: R, G, B;
+}
 ```
 
 **Then** use a color picker on the *background color* anywhere in Settings or Dashboard, set `--dark-apparent` to that value, and save it. **Now you are done.**
@@ -47,8 +51,26 @@ If you don't do this, the backdrop gradient will not blend perfectly into the ba
 
 If you'd like to make your own custom login wallpaper to match it, in line with the ones I made, follow the instructions in `images/colorschemes/base.svg` and add this following line as well:
 
-`#loginPage {background: url(link-to-your-image-goes-here) !important;}`
+```
+#loginPage {background: url(link-to-your-image-goes-here) !important;}
+```
 
+---
+Color Breakdown
+
+    --accent: R, G, B; 
+    --accent-off: R, G, B; 
+    --dark: R, G, B;                Used for some details where a color too dark or too light wouldn't be ideal
+    --darkest: R, G, B;             Used for field's bg, text color when accent/accent-off becomes the bg color, etc.
+    --dark-highlight: R, G, B;      Lighter than dark, used for dark highlights. BG in login page, etc.
+    --dark-apparent: R, G, B;       Only used in mobile layout. It is the color of the gradient over the backdrop image.
+
+    --white: R, G, B;               Used for the BG of the play button
+    --white-off: R, G, B;           Used for the BG of the AppleTV-esque bar
+
+    --jade-green: R, G, B;          Used for watched check
+    --honey-yellow: R, G, B;        Used for the rating star color
+    --cherry-red: R, G, B;          Used for the shutdown button
 
 ---
 

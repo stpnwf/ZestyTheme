@@ -1,11 +1,13 @@
 /* Gray color scheme */
 
-:root {--accent: 255, 255, 255;}         /* #FFFFFF */
-:root {--accent-off: 141, 141, 141;}     /* #8D8D8D */
-:root {--dark: 32, 32, 32;}              /* #202020 */
-:root {--darkest: 25, 25, 25;}           /* ##191919 */
-:root {--dark-highlight: 65, 65, 65;}    /* #414141 */
-:root {--dark-apparent: 43, 43, 43;}     /* #2B2B2B */
+:root {
+  --accent: 255, 255, 255;         /* #FFFFFF */
+  --accent-off: 141, 141, 141;     /* #8D8D8D */
+  --dark: 32, 32, 32;              /* #202020 */
+  --darkest: 25, 25, 25;           /* #191919 */
+  --dark-highlight: 65, 65, 65;    /* #414141 */
+  --dark-apparent: 43, 43, 43;     /* #2B2B2B */
+}
 
-#loginPage {background: url(https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/pattern-gray.png) !important;}
-
+#loginPage {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/pattern-gray.png") !important;}
+.layout-desktop .backgroundContainer::before {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/gradients/gray.png") no-repeat center center;}
