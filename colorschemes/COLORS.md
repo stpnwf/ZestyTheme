@@ -75,8 +75,6 @@ Color Breakdown
 ---
 
 Notes: 
-
- Check `theme.css` to see what each color does.
  
  Lighter `--accent` colors work better, as colorful colors will make the background color look very saturated, since the accent color is overlayed on top of the background.
  
