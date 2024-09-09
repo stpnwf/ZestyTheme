@@ -38,43 +38,50 @@ Plus **one** of the following lines if you'd like to change the default colors t
 
 ### Blue
 <img src="./images/colorschemes/blue.png" alt="blue" width="20%"/>
-```
+
+```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/blue.css');
 ```
 
 ### Coral
 <img src="./images/colorschemes/coral.png" alt="coral" width="20%"/>
-```
+
+```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/coral.css');
 ```
 
 ### Gray
 <img src="./images/colorschemes/gray.png" alt="gray" width="20%"/>
-```
+
+```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/gray.css');
 ```
 
 ### Green
 <img src="./images/colorschemes/green.png" alt="green" width="20%"/>
-```
+
+```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/green.css');
 ```
 
 ### Purple
 <img src="./images/colorschemes/purple.png" alt="purple" width="20%"/>
-```
+
+```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/purple.css');
 ```
 
 ### Red
 <img src="./images/colorschemes/red.png" alt="red" width="20%"/>
-```
+
+```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/red.css');
 ```
 
 ### Yellow
 <img src="./images/colorschemes/yellow.png" alt="yellow" width="20%"/>
-```
+
+```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/yellow.css');
 ```
 
@@ -96,7 +103,7 @@ Notes:
 
 Disclaimer:
 
- Theme has only been tested at 1080p (16:9), on both the app and the web interface. So it _may_ look broken on 720p, 2K and 4K screens or different screen ratios.
+ Theme has only been tested at 1080p (16:9), on both the app and the web interface. So it _may_ look broken on 720p, 2K and 4K screens or different screen ratios. Please report any issues.
 
  I don't use the Live TV feature and neither Music Videos, so theme may look broken there. Not opposed to theming it, but hard to since I don't use it... 
 

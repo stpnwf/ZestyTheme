@@ -10,4 +10,4 @@
 }
 
 #loginPage {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/pattern-green.png") !important;}
-.layout-desktop .backgroundContainer::before {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/gradients/green.png") no-repeat center center;}
+.layout-desktop .backgroundContainer {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/gradients/green.png") no-repeat center center;}
