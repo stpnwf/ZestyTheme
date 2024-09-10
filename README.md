@@ -31,8 +31,9 @@ Then, if you haven't already, enable Backdrops for _every_ device using this the
 
 Plus **one** of the following lines if you'd like to change the default colors to one of the presets below (optional): 
 
-### Cyan (Default colorscheme)
+### Cyan
 <img src="./images/colorschemes/cyan.png" alt="default" width="20%"/>
+The default colorscheme
 <br>
 <br>
 
