@@ -47,7 +47,7 @@ To add the theme to Jellyfin, copy the following line to Dashboard > General > C
 
 **Then** use a color picker on the *background color* anywhere in Settings or Dashboard, set `--dark-apparent` to that value, and save it. **Now you are done.**
 
-If you don't do this, the backdrop gradient will not blend perfectly into the background on *mobile*. The background color is affected by the `--accent` color, so `--dark apparent` needs to be calculated for every color combination, hence why I made the presets...
+If you don't do this, the backdrop gradient will not blend perfectly into the background on *mobile*. The background color is affected by the `--accent` color, so `--dark apparent` needs to be calculated for every color combination, hence the presets...
 
 If you'd like to make your own custom login wallpaper to match it, in line with the ones I made, follow the instructions in `images/colorschemes/base.svg` and add this following line to Custom CSS as well:
 
@@ -55,7 +55,7 @@ If you'd like to make your own custom login wallpaper to match it, in line with 
 #loginPage {background: url(link-to-your-custom-wallpaper.jpg) !important;}
 ```
 
-To make custom gradients open `images/gradients/coarse-gradients/gradient.ai` in **Adobe Illustrator** (couldn't get one in that shape in Inkscape :/), choose the gradient tool and change all the colors to your `--dark-apparent` including the ones with 0 opacity. Export to PNG with 72 p/in resolution and XXXX anti-aliasing. Then import the output from Illustrator along with `images/gradients/noise.png` to GIMP or Photoshop (or the template `gradient-noise.xfc`). Then put the noise layer on top and set the blending options to `Multiply`¹. Export to PNG.
+To make custom gradients open `images/gradients/coarse-gradients/gradient.ai` in **Adobe Illustrator** (couldn't get one in that shape in Inkscape :/), choose the gradient tool and change all the colors to your `--dark-apparent` including the ones with 0 opacity. Export to PNG with 72 ppi resolution and Art Optimized (Supersampling) anti-aliasing. Then import the output file along with `images/gradients/noise.png` to GIMP or Photoshop (or the template `gradient-noise.xfc`). Then put the noise.png layer _on top_ of the gradient layer and set the blending options of the noise layer to `Multiply`¹. Export to PNG.
 
 Add the following line to Dashboard > General > Custom CSS as well:
 
@@ -86,7 +86,7 @@ Notes:
  
  Lighter `--accent` colors work better, as colorful colors will make the background color look very saturated - since the accent color is overlayed on top of the background.
 
- ¹ Overlaying the noise onto the gradient exported from Illustrator is necessary to decrease the color banding from the original file. This is an issue with gradients from both Illustrator and Inkscape, and looks better if managed with noise. 
+ ¹ Overlaying the noise onto the gradient exported from Illustrator is necessary to decrease the color banding from the output gradient file. This is an issue with gradients from both Illustrator and Inkscape, and banding looks better if managed with noise. 
 
 If you are using Zesty colorschemes on [Zombie](https://github.com/MakD/zombie-release/tree/main#color-palettes), be aware they will also change your login wallpaper to one of the ones that come with Zesty. If you just want the Zesty colors but not the matching login wallpaper, add the link to your preferred wallpaper and add this to the end of your custom CSS:
 
