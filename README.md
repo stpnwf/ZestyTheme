@@ -37,55 +37,126 @@ Plus **one** of the following lines if you'd like to change the default colors t
 <br>
 
 ### Blue
+
 <img src="./images/colorschemes/blue.png" alt="blue" width="20%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/blue.css');
 ```
 
+<details>
+ <summary>Preview</summary>
+ <div class="collapsible-content">
+    <img src="./images/colorschemes/previews/login-blue.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/blue.jpg" alt="default" width="80%"/>
+ </div>
+</details>
+<br>
+
 ### Coral
+
 <img src="./images/colorschemes/coral.png" alt="coral" width="20%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/coral.css');
 ```
 
+<details>
+ <summary>Preview</summary>
+ <div class="collapsible-content">
+    <img src="./images/colorschemes/previews/login-coral.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/coral.jpg" alt="default" width="80%"/>
+ </div>
+</details>
+<br>
+
 ### Gray
+
 <img src="./images/colorschemes/gray.png" alt="gray" width="20%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/gray.css');
 ```
 
+<details>
+ <summary>Preview</summary>
+ <div class="collapsible-content">
+    <img src="./images/colorschemes/previews/login-gray.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/gray.jpg" alt="default" width="80%"/>
+ </div>
+</details>
+<br>
+
 ### Green
+
 <img src="./images/colorschemes/green.png" alt="green" width="20%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/green.css');
 ```
 
+<details>
+ <summary>Preview</summary>
+ <div class="collapsible-content">
+    <img src="./images/colorschemes/previews/login-green.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/green.jpg" alt="default" width="80%"/>
+ </div>
+</details>
+<br>
+
 ### Purple
+
 <img src="./images/colorschemes/purple.png" alt="purple" width="20%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/purple.css');
 ```
 
+<details>
+ <summary>Preview</summary>
+ <div class="collapsible-content">
+    <img src="./images/colorschemes/previews/login-purple.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/purple.jpg" alt="default" width="80%"/>
+ </div>
+</details>
+<br>
+
 ### Red
+
 <img src="./images/colorschemes/red.png" alt="red" width="20%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/red.css');
 ```
 
+<details>
+ <summary>Preview</summary>
+ <div class="collapsible-content">
+    <img src="./images/colorschemes/previews/login-red.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/red.jpg" alt="default" width="80%"/>
+ </div>
+</details>
+<br>
+
 ### Yellow
+
 <img src="./images/colorschemes/yellow.png" alt="yellow" width="20%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/yellow.css');
 ```
 
-For more info on custom colors [click here](./colorschemes/COLORS.md). Or for more colorschemes, made by MakD, check the [Zombie Repo](https://github.com/MakD/zombie-release/tree/main#color-palettes).
+<details>
+ <summary>Preview</summary>
+ <div class="collapsible-content">
+    <img src="./images/colorschemes/previews/login-yellow.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/yellow.jpg" alt="default" width="80%"/>
+ </div>
+</details>
+<br>
+
+
+For more info on custom colors [click here](./colorschemes/COLORS.md). For more colorschemes check out MakD's [Zombie Repo](https://github.com/MakD/zombie-release/tree/main#color-palettes).
 
 ---
 
