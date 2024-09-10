@@ -87,4 +87,11 @@ Notes:
  Lighter `--accent` colors work better, as colorful colors will make the background color look very saturated - since the accent color is overlayed on top of the background.
 
  ¹ Overlaying the noise onto the gradient exported from Illustrator is necessary to decrease the color banding from the original file. This is an issue with gradients from both Illustrator and Inkscape, and looks better if managed with noise. 
+
+If you are using Zesty colorschemes on [Zombie](https://github.com/MakD/zombie-release/tree/main#color-palettes), be aware they will also change your login wallpaper to one of the ones that come with Zesty. If you just want the Zesty colors but not the matching login wallpaper, add the link to your preferred wallpaper and add this to the end of your custom CSS:
+
+```
+#loginPage {background: url(link-to-your-preferred-wallpaper.jpg) !important;}
+```
+
  
