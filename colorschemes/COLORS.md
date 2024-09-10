@@ -47,7 +47,7 @@ _If_ you didn't like any of the presets and would like to have custom colors, re
 
 **Then** use a color picker on the *background color* anywhere in Settings or Dashboard, set `--dark-apparent` to that value¹, and save it. **Now you are done.**
 
-<br>
+### Custom login wallpaper
 
 If you'd like to make your own custom login wallpaper to match it, in line with the ones I made, follow the instructions in `images/colorschemes/base.svg` and add this following line to Custom CSS as well:
 
@@ -55,7 +55,7 @@ If you'd like to make your own custom login wallpaper to match it, in line with 
 #loginPage {background: url(link-to-your-custom-wallpaper.jpg) !important;}
 ```
 
-<br>
+### Custom gradient
 
 To make custom gradients open `images/gradients/coarse-gradients/gradient.ai` in **Adobe Illustrator** (couldn't get one in that shape in Inkscape :/), choose the gradient tool and change all the colors to your `--dark-apparent` including the ones with 0 opacity. Export to PNG with 72 ppi resolution and Art Optimized (Supersampling) anti-aliasing. Then import the output file along with `images/gradients/noise.png` to GIMP or Photoshop (or the template `gradient-noise.xfc`). Then put the noise.png layer _on top_ of the gradient layer and set the blending options of the noise layer to `Multiply`². Export to PNG.
 
@@ -66,7 +66,7 @@ Add the following line to Dashboard > General > Custom CSS as well:
 ```
 
 ---
-Color Breakdown
+### Color Breakdown
 
     --accent: R, G, B; 
     --accent-off: R, G, B; 
@@ -84,7 +84,7 @@ Color Breakdown
 
 ---
 
-Notes: 
+### Notes: 
  
  Lighter `--accent` colors work better, as colorful colors will make the background color look very saturated - since the accent color is overlayed on top of the background.
 
@@ -97,5 +97,4 @@ If you are using Zesty colorschemes on [Zombie](https://github.com/MakD/zombie-r
 ```
 #loginPage {background: url(link-to-your-preferred-wallpaper.jpg) !important;}
 ```
-
  

@@ -13,7 +13,9 @@ Compatible with 10.9.10+ & Tablets!
 <img src="./images/avatar.jpg" alt="tv-shows" width="100%"/>
 <img src="./images/player.jpg" alt="player" width="100%"/>
 <img src="./images/login.jpg" alt="login" width="100%"/>
+
 **Mobile:**
+
 <img src="./images/phone.jpg" alt="phone" width="100%"/>
 
 ---
