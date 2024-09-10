@@ -52,7 +52,6 @@ The default colorscheme
     <img src="./images/colorschemes/previews/blue.jpg" alt="default" width="80%"/>
  </div>
 </details>
-<br>
 
 ### Coral
 
@@ -69,7 +68,6 @@ The default colorscheme
     <img src="./images/colorschemes/previews/coral.jpg" alt="default" width="80%"/>
  </div>
 </details>
-<br>
 
 ### Gray
 
@@ -86,7 +84,6 @@ The default colorscheme
     <img src="./images/colorschemes/previews/gray.jpg" alt="default" width="80%"/>
  </div>
 </details>
-<br>
 
 ### Green
 
@@ -103,7 +100,6 @@ The default colorscheme
     <img src="./images/colorschemes/previews/green.jpg" alt="default" width="80%"/>
  </div>
 </details>
-<br>
 
 ### Purple
 
@@ -120,7 +116,6 @@ The default colorscheme
     <img src="./images/colorschemes/previews/purple.jpg" alt="default" width="80%"/>
  </div>
 </details>
-<br>
 
 ### Red
 
@@ -137,7 +132,6 @@ The default colorscheme
     <img src="./images/colorschemes/previews/red.jpg" alt="default" width="80%"/>
  </div>
 </details>
-<br>
 
 ### Yellow
 
