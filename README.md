@@ -6,14 +6,14 @@ Compatible with 10.9.10+ & Tablets!
 
 ---
 
-**Screenshots:**
+### **Screenshots:**
 
 <img src="./images/home.jpg" alt="home" width="100%"/>
 <img src="./images/nice-guys.jpg" alt="movies" width="100%"/>
 <img src="./images/avatar.jpg" alt="tv-shows" width="100%"/>
 <img src="./images/player.jpg" alt="player" width="100%"/>
 <img src="./images/login.jpg" alt="login" width="100%"/>
-Mobile:
+**Mobile:**
 <img src="./images/phone.jpg" alt="phone" width="100%"/>
 
 ---
@@ -155,7 +155,7 @@ For more info on custom colors [click here](./colorschemes/COLORS.md). For more 
 
 ---
 
-Notes: 
+### Notes: 
 
  ¹ You must enable Backdrops on *every* device you plan to use this on, otherwise theme **WILL** look broken.
 
@@ -167,7 +167,7 @@ Notes:
 
 ---
 
-Disclaimer:
+### Disclaimer:
 
  Theme has only been tested at 1080p (16:9), on both the app and the web interface. So it _may_ look broken on 720p, 2K and 4K screens or different screen ratios. Please report any issues.
 
