@@ -34,14 +34,14 @@ Then, if you haven't already, enable Backdrops for _every_ device using this the
 Plus **one** of the following lines if you'd like to change the default colors to one of the presets below (optional): 
 
 ### Cyan
-<img src="./images/colorschemes/cyan.png" alt="default" width="25%"/>
+<img src="./images/colorschemes/cyan.png" alt="default" width="30%"/>
 The default colorscheme
 <br>
 <br>
 
 ### Blue
 
-<img src="./images/colorschemes/blue.png" alt="blue" width="25%"/>
+<img src="./images/colorschemes/blue.png" alt="blue" width="30%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/blue.css');
@@ -57,7 +57,7 @@ The default colorscheme
 
 ### Coral
 
-<img src="./images/colorschemes/coral.png" alt="coral" width="25%"/>
+<img src="./images/colorschemes/coral.png" alt="coral" width="30%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/coral.css');
@@ -73,7 +73,7 @@ The default colorscheme
 
 ### Gray
 
-<img src="./images/colorschemes/gray.png" alt="gray" width="25%"/>
+<img src="./images/colorschemes/gray.png" alt="gray" width="30%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/gray.css');
@@ -89,7 +89,7 @@ The default colorscheme
 
 ### Green
 
-<img src="./images/colorschemes/green.png" alt="green" width="25%"/>
+<img src="./images/colorschemes/green.png" alt="green" width="30%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/green.css');
@@ -105,7 +105,7 @@ The default colorscheme
 
 ### Purple
 
-<img src="./images/colorschemes/purple.png" alt="purple" width="25%"/>
+<img src="./images/colorschemes/purple.png" alt="purple" width="30%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/purple.css');
@@ -121,7 +121,7 @@ The default colorscheme
 
 ### Red
 
-<img src="./images/colorschemes/red.png" alt="red" width="25%"/>
+<img src="./images/colorschemes/red.png" alt="red" width="30%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/red.css');
@@ -137,7 +137,7 @@ The default colorscheme
 
 ### Yellow
 
-<img src="./images/colorschemes/yellow.png" alt="yellow" width="25%"/>
+<img src="./images/colorschemes/yellow.png" alt="yellow" width="30%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/yellow.css');
