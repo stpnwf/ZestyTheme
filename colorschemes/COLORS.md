@@ -6,21 +6,21 @@ Inspired by the [Zorin OS](https://zorin.com/os/) [color schemes](https://github
 
 **Template Colors:**
 
-<img src="./../images/colorschemes/cyan.png" alt="default" width="30%"/>
+<img src="./../images/colorschemes/cyan.png" alt="default" width="50%"/>
 
-<img src="./../images/colorschemes/blue.png" alt="blue" width="30%"/>
+<img src="./../images/colorschemes/blue.png" alt="blue" width="50%"/>
 
-<img src="./../images/colorschemes/coral.png" alt="coral" width="30%"/>
+<img src="./../images/colorschemes/coral.png" alt="coral" width="50%"/>
 
-<img src="./../images/colorschemes/gray.png" alt="gray" width="30%"/>
+<img src="./../images/colorschemes/gray.png" alt="gray" width="50%"/>
 
-<img src="./../images/colorschemes/green.png" alt="green" width="30%"/>
+<img src="./../images/colorschemes/green.png" alt="green" width="50%"/>
 
-<img src="./../images/colorschemes/purple.png" alt="purple" width="30%"/>
+<img src="./../images/colorschemes/purple.png" alt="purple" width="50%"/>
 
-<img src="./../images/colorschemes/red.png" alt="red" width="30%"/>
+<img src="./../images/colorschemes/red.png" alt="red" width="50%"/>
 
-<img src="./../images/colorschemes/yellow.png" alt="yellow" width="30%"/>
+<img src="./../images/colorschemes/yellow.png" alt="yellow" width="50%"/>
 
 ---
 

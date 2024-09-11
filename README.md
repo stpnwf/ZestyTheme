@@ -31,17 +31,17 @@ Then, if you haven't already, enable Backdrops for _every_ device using this the
 
 ## Colorschemes
 
-Plus **one** of the following lines if you'd like to change the default colors to one of the presets below (optional): 
+Plus **one** of the following import lines if you'd like to change the default colors to one of the presets below (optional): 
 
 ### Cyan
-<img src="./images/colorschemes/cyan.png" alt="default" width="30%"/>
-The default colorscheme
+<img src="./images/colorschemes/cyan.png" alt="default" width="35%"/>
+The default colorscheme.
 <br>
 <br>
 
 ### Blue
 
-<img src="./images/colorschemes/blue.png" alt="blue" width="30%"/>
+<img src="./images/colorschemes/blue.png" alt="blue" width="35%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/blue.css');
@@ -57,7 +57,7 @@ The default colorscheme
 
 ### Coral
 
-<img src="./images/colorschemes/coral.png" alt="coral" width="30%"/>
+<img src="./images/colorschemes/coral.png" alt="coral" width="35%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/coral.css');
@@ -73,7 +73,7 @@ The default colorscheme
 
 ### Gray
 
-<img src="./images/colorschemes/gray.png" alt="gray" width="30%"/>
+<img src="./images/colorschemes/gray.png" alt="gray" width="35%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/gray.css');
@@ -89,7 +89,7 @@ The default colorscheme
 
 ### Green
 
-<img src="./images/colorschemes/green.png" alt="green" width="30%"/>
+<img src="./images/colorschemes/green.png" alt="green" width="35%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/green.css');
@@ -105,7 +105,7 @@ The default colorscheme
 
 ### Purple
 
-<img src="./images/colorschemes/purple.png" alt="purple" width="30%"/>
+<img src="./images/colorschemes/purple.png" alt="purple" width="35%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/purple.css');
@@ -121,7 +121,7 @@ The default colorscheme
 
 ### Red
 
-<img src="./images/colorschemes/red.png" alt="red" width="30%"/>
+<img src="./images/colorschemes/red.png" alt="red" width="35%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/red.css');
@@ -137,7 +137,7 @@ The default colorscheme
 
 ### Yellow
 
-<img src="./images/colorschemes/yellow.png" alt="yellow" width="30%"/>
+<img src="./images/colorschemes/yellow.png" alt="yellow" width="35%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/yellow.css');
@@ -163,7 +163,7 @@ For more info on custom colors [click here](./colorschemes/COLORS.md). For more 
 
  This theme looks best with background images whose content is skewed the right. [As demonstrated here](./images/extras/bg-guide.jpg).
 
- Theme is still **WIP**, and may look broken in some areas. Please report any issues.
+ I don't use the Live TV feature and neither Music Videos, so theme may look broken there. Not opposed to theming it, but hard to since I don't use it... 
 
  I plan to get to theming TV mode (Settings > Display > Display Mode > TV) soon™. Looks broken right now.
 
@@ -173,7 +173,7 @@ For more info on custom colors [click here](./colorschemes/COLORS.md). For more 
 
  Theme has only been tested at 1080p (16:9), on both the app and the web interface. So it _may_ look broken on 720p, 2K and 4K screens or different screen ratios. Please report any issues.
 
- I don't use the Live TV feature and neither Music Videos, so theme may look broken there. Not opposed to theming it, but hard to since I don't use it... 
+ Theme is still **WIP**, and may look broken in some areas. Please report any issues.
 
  I am _not_ knowledgeable in CSS, but if the end result looks how I want it to, despite how hacky or messy the code may be, that's a win in my book... PRs are welcome.
 
