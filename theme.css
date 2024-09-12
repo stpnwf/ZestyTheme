@@ -2174,11 +2174,11 @@
 	  margin-right: -30vw;
 	  margin-top: 15.5vh;
 	  margin-bottom: 1vh;
-	  padding-left: 2.5em;
+	  padding-left: 2.62em;
 	  margin-right: 2.5em;
-	  background-color: rgba(var(--darkest),.8);
+	  background-color: rgba(var(--darkest),.77);
 	  padding-top: .3em;
-	  backdrop-filter: blur(4px);
+	  backdrop-filter: blur(10px);
 	  position: absolute;
 	  /* margin-left: 1.5vw; */
   }

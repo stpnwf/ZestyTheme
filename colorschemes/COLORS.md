@@ -49,7 +49,7 @@ _If_ you didn't like any of the presets and would like to have custom colors, re
 
 ### Custom login wallpaper
 
-If you'd like to make your own custom login wallpaper to match it, in line with the ones I made, follow the instructions in `images/colorschemes/base.svg` and add this following line to Custom CSS as well:
+If you'd like to make your own custom login wallpaper to match it, in line with the ones I made, follow the instructions in `images/colorschemes/base.svg` (use Inkscape) and add this following line to Custom CSS as well:
 
 ```
 #loginPage {background: url(link-to-your-custom-wallpaper.jpg) !important;}
