@@ -63,6 +63,7 @@ The default color scheme.
     <img src="./images/colorschemes/previews/blue.jpg" alt="default" width="100%"/>
  </div>
 </details>
+<br>
 
 ### Coral
 
@@ -79,6 +80,7 @@ The default color scheme.
     <img src="./images/colorschemes/previews/coral.jpg" alt="default" width="100%"/>
  </div>
 </details>
+<br>
 
 ### Gray
 
@@ -95,6 +97,7 @@ The default color scheme.
     <img src="./images/colorschemes/previews/gray.jpg" alt="default" width="100%"/>
  </div>
 </details>
+<br>
 
 ### Green
 
@@ -111,6 +114,7 @@ The default color scheme.
     <img src="./images/colorschemes/previews/green.jpg" alt="default" width="100%"/>
  </div>
 </details>
+<br>
 
 ### Purple
 
@@ -127,6 +131,7 @@ The default color scheme.
     <img src="./images/colorschemes/previews/purple.jpg" alt="default" width="100%"/>
  </div>
 </details>
+<br>
 
 ### Red
 
@@ -143,6 +148,7 @@ The default color scheme.
     <img src="./images/colorschemes/previews/red.jpg" alt="default" width="100%"/>
  </div>
 </details>
+<br>
 
 ### Yellow
 
@@ -160,7 +166,7 @@ The default color scheme.
  </div>
 </details>
 <br>
-
+<br>
 
 For more info on custom colors [click here](./colorschemes/COLORS.md). For more color schemes check out MakD's [Zombie Repo](https://github.com/MakD/zombie-release/tree/main#color-palettes).
 
