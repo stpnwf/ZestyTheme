@@ -42,8 +42,8 @@ The default color scheme.
 <details>
  <summary>Preview</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/comp-cyan.jpg" alt="default" width="80%"/>
-    <img src="./images/colorschemes/previews/cyan.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/comp-cyan.jpg" alt="default" width="100%"/>
+    <img src="./images/colorschemes/previews/cyan.jpg" alt="default" width="100%"/>
  </div>
 </details>
 <br>
@@ -59,8 +59,8 @@ The default color scheme.
 <details>
  <summary>Preview</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/comp-blue.jpg" alt="default" width="80%"/>
-    <img src="./images/colorschemes/previews/blue.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/comp-blue.jpg" alt="default" width="100%"/>
+    <img src="./images/colorschemes/previews/blue.jpg" alt="default" width="100%"/>
  </div>
 </details>
 
@@ -75,8 +75,8 @@ The default color scheme.
 <details>
  <summary>Preview</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/comp-coral.jpg" alt="default" width="80%"/>
-    <img src="./images/colorschemes/previews/coral.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/comp-coral.jpg" alt="default" width="100%"/>
+    <img src="./images/colorschemes/previews/coral.jpg" alt="default" width="100%"/>
  </div>
 </details>
 
@@ -91,8 +91,8 @@ The default color scheme.
 <details>
  <summary>Preview</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/comp-gray.jpg" alt="default" width="80%"/>
-    <img src="./images/colorschemes/previews/gray.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/comp-gray.jpg" alt="default" width="100%"/>
+    <img src="./images/colorschemes/previews/gray.jpg" alt="default" width="100%"/>
  </div>
 </details>
 
@@ -107,8 +107,8 @@ The default color scheme.
 <details>
  <summary>Preview</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/comp-green.jpg" alt="default" width="80%"/>
-    <img src="./images/colorschemes/previews/green.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/comp-green.jpg" alt="default" width="100%"/>
+    <img src="./images/colorschemes/previews/green.jpg" alt="default" width="100%"/>
  </div>
 </details>
 
@@ -123,8 +123,8 @@ The default color scheme.
 <details>
  <summary>Preview</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/comp-purple.jpg" alt="default" width="80%"/>
-    <img src="./images/colorschemes/previews/purple.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/comp-purple.jpg" alt="default" width="100%"/>
+    <img src="./images/colorschemes/previews/purple.jpg" alt="default" width="100%"/>
  </div>
 </details>
 
@@ -139,8 +139,8 @@ The default color scheme.
 <details>
  <summary>Preview</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/comp-red.jpg" alt="default" width="80%"/>
-    <img src="./images/colorschemes/previews/red.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/comp-red.jpg" alt="default" width="100%"/>
+    <img src="./images/colorschemes/previews/red.jpg" alt="default" width="100%"/>
  </div>
 </details>
 
@@ -155,8 +155,8 @@ The default color scheme.
 <details>
  <summary>Preview</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/comp-yellow.jpg" alt="default" width="80%"/>
-    <img src="./images/colorschemes/previews/yellow.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/comp-yellow.jpg" alt="default" width="100%"/>
+    <img src="./images/colorschemes/previews/yellow.jpg" alt="default" width="100%"/>
  </div>
 </details>
 <br>
@@ -176,8 +176,8 @@ This is a comparison between the minimal(default) and stylish versions of the lo
 <details>
  <summary>Blue</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/minimal-blue.jpg" alt="default" width="80%"/>
-    <img src="./images/colorschemes/previews/stylish-blue.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/minimal-blue.jpg" alt="default" width="100%"/>
+    <img src="./images/colorschemes/previews/stylish-blue.jpg" alt="default" width="100%"/>
  </div>
 </details>
 <br>
@@ -185,8 +185,8 @@ This is a comparison between the minimal(default) and stylish versions of the lo
 <details>
  <summary>Coral</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/minimal-coral.jpg" alt="default" width="80%"/>
-    <img src="./images/colorschemes/previews/stylish-coral.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/minimal-coral.jpg" alt="default" width="100%"/>
+    <img src="./images/colorschemes/previews/stylish-coral.jpg" alt="default" width="100%"/>
  </div>
 </details>
 <br>
@@ -194,8 +194,8 @@ This is a comparison between the minimal(default) and stylish versions of the lo
 <details>
  <summary>Cyan</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/minimal-cyan.jpg" alt="default" width="80%"/>
-    <img src="./images/colorschemes/previews/stylish-cyan.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/minimal-cyan.jpg" alt="default" width="100%"/>
+    <img src="./images/colorschemes/previews/stylish-cyan.jpg" alt="default" width="100%"/>
  </div>
 </details>
 <br>
@@ -203,8 +203,8 @@ This is a comparison between the minimal(default) and stylish versions of the lo
 <details>
  <summary>Gray</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/minimal-gray.jpg" alt="default" width="80%"/>
-    <img src="./images/colorschemes/previews/stylish-gray.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/minimal-gray.jpg" alt="default" width="100%"/>
+    <img src="./images/colorschemes/previews/stylish-gray.jpg" alt="default" width="100%"/>
  </div>
 </details>
 <br>
@@ -212,8 +212,8 @@ This is a comparison between the minimal(default) and stylish versions of the lo
 <details>
  <summary>Green</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/minimal-green.jpg" alt="default" width="80%"/>
-    <img src="./images/colorschemes/previews/stylish-green.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/minimal-green.jpg" alt="default" width="100%"/>
+    <img src="./images/colorschemes/previews/stylish-green.jpg" alt="default" width="100%"/>
  </div>
 </details>
 <br>
@@ -221,8 +221,8 @@ This is a comparison between the minimal(default) and stylish versions of the lo
 <details>
  <summary>Purple</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/minimal-purple.jpg" alt="default" width="80%"/>
-    <img src="./images/colorschemes/previews/stylish-purple.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/minimal-purple.jpg" alt="default" width="100%"/>
+    <img src="./images/colorschemes/previews/stylish-purple.jpg" alt="default" width="100%"/>
  </div>
 </details>
 <br>
@@ -230,8 +230,8 @@ This is a comparison between the minimal(default) and stylish versions of the lo
 <details>
  <summary>Red</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/minimal-red.jpg" alt="default" width="80%"/>
-    <img src="./images/colorschemes/previews/stylish-red.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/minimal-red.jpg" alt="default" width="100%"/>
+    <img src="./images/colorschemes/previews/stylish-red.jpg" alt="default" width="100%"/>
  </div>
 </details>
 <br>
@@ -239,8 +239,8 @@ This is a comparison between the minimal(default) and stylish versions of the lo
 <details>
  <summary>Yellow</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/minimal-yellow.jpg" alt="default" width="80%"/>
-    <img src="./images/colorschemes/previews/stylish-yellow.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/minimal-yellow.jpg" alt="default" width="100%"/>
+    <img src="./images/colorschemes/previews/stylish-yellow.jpg" alt="default" width="100%"/>
  </div>
 </details>
 <br>
