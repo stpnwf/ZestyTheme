@@ -7,7 +7,9 @@
   --darkest: 26, 24, 30;           /* #1A181E */
   --dark-highlight: 67, 62, 73;    /* #433E49 */
   --dark-apparent: 36, 33, 41;     /* #242129 */
+  
+  --stylish-login: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/stylish-purple.png");
 }
 
-#loginPage {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/pattern-purple.png") !important;}
+#loginPage {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/minimal-purple.png") !important;}
 .layout-desktop .backgroundContainer {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/gradients/purple.png") no-repeat center center;}

@@ -2,6 +2,7 @@
 
 A minimal and elegant theme for Jellyfin based on/inspired by [Ultrachromic](https://github.com/CTalvio/Ultrachromic), [Glassmorphism](https://github.com/alexyle/jellyfin-theme), [Scyfin](https://github.com/loof2736/scyfin), [JellyTheme](https://github.com/alexyle/jellyfin-theme) & [Zombie](https://github.com/MakD/zombie-release/tree/main).
  
+**Now with two options for login wallpapers: minimal and stylish!**
 Compatible with 10.9.10+ & Tablets!
 
 ---
@@ -29,19 +30,27 @@ To add the theme to Jellyfin, copy the following line to Dashboard > General > C
 ```
 Then, if you haven't already, enable Backdrops for _every_ device using this theme (Settings > Display > Backdrops).¹ 
 
-## Colorschemes
+## Color schemes
 
-Plus **one** of the following import lines if you'd like to change the default colors to one of the presets below (optional): 
+Plus **one** of the following @import lines if you'd like to change the default colors to one of the presets below (optional): 
 
 ### Cyan
-<img src="./images/colorschemes/cyan.png" alt="default" width="35%"/>
-The default colorscheme.
-<br>
+<img src="./images/colorschemes/cyan.png" alt="default" width="30%"/>
+
+The default color scheme.
+
+<details>
+ <summary>Preview</summary>
+ <div class="collapsible-content">
+    <img src="./images/colorschemes/previews/comp-cyan.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/cyan.jpg" alt="default" width="80%"/>
+ </div>
+</details>
 <br>
 
 ### Blue
 
-<img src="./images/colorschemes/blue.png" alt="blue" width="35%"/>
+<img src="./images/colorschemes/blue.png" alt="blue" width="30%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/blue.css');
@@ -50,14 +59,14 @@ The default colorscheme.
 <details>
  <summary>Preview</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/login-blue.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/comp-blue.jpg" alt="default" width="80%"/>
     <img src="./images/colorschemes/previews/blue.jpg" alt="default" width="80%"/>
  </div>
 </details>
 
 ### Coral
 
-<img src="./images/colorschemes/coral.png" alt="coral" width="35%"/>
+<img src="./images/colorschemes/coral.png" alt="coral" width="30%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/coral.css');
@@ -66,14 +75,14 @@ The default colorscheme.
 <details>
  <summary>Preview</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/login-coral.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/comp-coral.jpg" alt="default" width="80%"/>
     <img src="./images/colorschemes/previews/coral.jpg" alt="default" width="80%"/>
  </div>
 </details>
 
 ### Gray
 
-<img src="./images/colorschemes/gray.png" alt="gray" width="35%"/>
+<img src="./images/colorschemes/gray.png" alt="gray" width="30%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/gray.css');
@@ -82,14 +91,14 @@ The default colorscheme.
 <details>
  <summary>Preview</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/login-gray.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/comp-gray.jpg" alt="default" width="80%"/>
     <img src="./images/colorschemes/previews/gray.jpg" alt="default" width="80%"/>
  </div>
 </details>
 
 ### Green
 
-<img src="./images/colorschemes/green.png" alt="green" width="35%"/>
+<img src="./images/colorschemes/green.png" alt="green" width="30%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/green.css');
@@ -98,14 +107,14 @@ The default colorscheme.
 <details>
  <summary>Preview</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/login-green.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/comp-green.jpg" alt="default" width="80%"/>
     <img src="./images/colorschemes/previews/green.jpg" alt="default" width="80%"/>
  </div>
 </details>
 
 ### Purple
 
-<img src="./images/colorschemes/purple.png" alt="purple" width="35%"/>
+<img src="./images/colorschemes/purple.png" alt="purple" width="30%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/purple.css');
@@ -114,14 +123,14 @@ The default colorscheme.
 <details>
  <summary>Preview</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/login-purple.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/comp-purple.jpg" alt="default" width="80%"/>
     <img src="./images/colorschemes/previews/purple.jpg" alt="default" width="80%"/>
  </div>
 </details>
 
 ### Red
 
-<img src="./images/colorschemes/red.png" alt="red" width="35%"/>
+<img src="./images/colorschemes/red.png" alt="red" width="30%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/red.css');
@@ -130,14 +139,14 @@ The default colorscheme.
 <details>
  <summary>Preview</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/login-red.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/comp-red.jpg" alt="default" width="80%"/>
     <img src="./images/colorschemes/previews/red.jpg" alt="default" width="80%"/>
  </div>
 </details>
 
 ### Yellow
 
-<img src="./images/colorschemes/yellow.png" alt="yellow" width="35%"/>
+<img src="./images/colorschemes/yellow.png" alt="yellow" width="30%"/>
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/yellow.css');
@@ -146,14 +155,95 @@ The default colorscheme.
 <details>
  <summary>Preview</summary>
  <div class="collapsible-content">
-    <img src="./images/colorschemes/previews/login-yellow.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/comp-yellow.jpg" alt="default" width="80%"/>
     <img src="./images/colorschemes/previews/yellow.jpg" alt="default" width="80%"/>
  </div>
 </details>
 <br>
 
 
-For more info on custom colors [click here](./colorschemes/COLORS.md). For more colorschemes check out MakD's [Zombie Repo](https://github.com/MakD/zombie-release/tree/main#color-palettes).
+For more info on custom colors [click here](./colorschemes/COLORS.md). For more color schemes check out MakD's [Zombie Repo](https://github.com/MakD/zombie-release/tree/main#color-palettes).
+
+### Alt login wallpaper
+Finally _if_ you would like to use the alternative(stylish) login wallpaper, add the line below to your Custom CSS as well:
+
+```css
+@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/login-alt.css');
+```
+
+This is a comparison between the minimal(default) and stylish versions of the login wallpaper:
+
+<details>
+ <summary>Blue</summary>
+ <div class="collapsible-content">
+    <img src="./images/colorschemes/previews/minimal-blue.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/stylish-blue.jpg" alt="default" width="80%"/>
+ </div>
+</details>
+<br>
+
+<details>
+ <summary>Coral</summary>
+ <div class="collapsible-content">
+    <img src="./images/colorschemes/previews/minimal-coral.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/stylish-coral.jpg" alt="default" width="80%"/>
+ </div>
+</details>
+<br>
+
+<details>
+ <summary>Cyan</summary>
+ <div class="collapsible-content">
+    <img src="./images/colorschemes/previews/minimal-cyan.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/stylish-cyan.jpg" alt="default" width="80%"/>
+ </div>
+</details>
+<br>
+
+<details>
+ <summary>Gray</summary>
+ <div class="collapsible-content">
+    <img src="./images/colorschemes/previews/minimal-gray.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/stylish-gray.jpg" alt="default" width="80%"/>
+ </div>
+</details>
+<br>
+
+<details>
+ <summary>Green</summary>
+ <div class="collapsible-content">
+    <img src="./images/colorschemes/previews/minimal-green.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/stylish-green.jpg" alt="default" width="80%"/>
+ </div>
+</details>
+<br>
+
+<details>
+ <summary>Purple</summary>
+ <div class="collapsible-content">
+    <img src="./images/colorschemes/previews/minimal-purple.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/stylish-purple.jpg" alt="default" width="80%"/>
+ </div>
+</details>
+<br>
+
+<details>
+ <summary>Red</summary>
+ <div class="collapsible-content">
+    <img src="./images/colorschemes/previews/minimal-red.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/stylish-red.jpg" alt="default" width="80%"/>
+ </div>
+</details>
+<br>
+
+<details>
+ <summary>Yellow</summary>
+ <div class="collapsible-content">
+    <img src="./images/colorschemes/previews/minimal-yellow.jpg" alt="default" width="80%"/>
+    <img src="./images/colorschemes/previews/stylish-yellow.jpg" alt="default" width="80%"/>
+ </div>
+</details>
+<br>
 
 ---
 
@@ -181,13 +271,19 @@ For more info on custom colors [click here](./colorschemes/COLORS.md). For more 
 
 **Things I'd like to do, if I can figure out how to (HELP WANTED):** 
 
-Add profile pics back:
+ Add profile pics back:
 
-<img src="./images/actor.jpg" alt="actor-page" width="65%"/>
+<figure>
+    <img src="./images/actor.jpg" alt="actor-page" width="65%">
+    <figcaption>It doesn't seem possible to remove just the poster while keeping the profile pics & season posters...</figcaption>
+</figure>
 
  Add season posters back:
  
-<img src="./images/season.jpg" alt="season-poster" width="65%"/>
+<figure>
+    <img src="./images/season.jpg" alt="season-poster" width="65%"/>
+    <figcaption>It doesn't seem possible to remove just the poster while keeping the profile pics & season posters...</figcaption>
+</figure>
 
  Turn seasons into a carousel to prevent this behavior:
  
@@ -196,3 +292,4 @@ Add profile pics back:
  Make it so there is no "overflowing" entries in Genres after I increased Poster size
 
 <img src="./images/genres.jpg" alt="genres" width="65%"/>
+

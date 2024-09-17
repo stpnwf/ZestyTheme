@@ -1,6 +1,6 @@
   @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/cyan.css');
   @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); body, h1, h2, h3, h4 {font-family: 'Quicksand', sans-serif;}
-.layout-desktop .backgroundContainer {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/gradients/cyan.png") no-repeat center center;}
+
   :root {
     --white: 243, 242, 243;           /* F3F2F3 */
     --white-off: 207, 221, 233;       /* CFDDE9 */
@@ -2170,12 +2170,12 @@
   /* Moves TV shows Up Next to bottom right */
   .layout-desktop .nextUpSection {
 	  border-radius: 34px;
-	  margin-left: 66%;
+	  left: calc(70vw - 0.5em);
 	  margin-right: -30vw;
-	  margin-top: 15.5vh;
+	  margin-top: 25vh;
 	  margin-bottom: 1vh;
 	  padding-left: 2.62em;
-	  margin-right: 2.5em;
+	  margin-right: 5vw;
 	  background-color: rgba(var(--darkest),.77);
 	  padding-top: .3em;
 	  backdrop-filter: blur(10px);

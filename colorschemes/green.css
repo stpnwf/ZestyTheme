@@ -7,7 +7,9 @@
   --darkest: 19, 28, 22;           /* #131C16 */
   --dark-highlight: 59, 69, 60;    /* #3B453C */
   --dark-apparent: 31, 41, 33;     /* #1F2921 */
+  
+  --stylish-login: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/stylish-green.png");
 }
 
-#loginPage {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/pattern-green.png") !important;}
+#loginPage {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/minimal-green.png") !important;}
 .layout-desktop .backgroundContainer {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/gradients/green.png") no-repeat center center;}
