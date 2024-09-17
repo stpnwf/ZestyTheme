@@ -186,7 +186,6 @@ This is a comparison between the minimal(default) and stylish versions of the lo
     <img src="./images/colorschemes/previews/stylish-blue.jpg" alt="default" width="100%"/>
  </div>
 </details>
-<br>
 
 <details>
  <summary>Coral</summary>
@@ -195,7 +194,6 @@ This is a comparison between the minimal(default) and stylish versions of the lo
     <img src="./images/colorschemes/previews/stylish-coral.jpg" alt="default" width="100%"/>
  </div>
 </details>
-<br>
 
 <details>
  <summary>Cyan</summary>
@@ -204,7 +202,6 @@ This is a comparison between the minimal(default) and stylish versions of the lo
     <img src="./images/colorschemes/previews/stylish-cyan.jpg" alt="default" width="100%"/>
  </div>
 </details>
-<br>
 
 <details>
  <summary>Gray</summary>
@@ -213,7 +210,6 @@ This is a comparison between the minimal(default) and stylish versions of the lo
     <img src="./images/colorschemes/previews/stylish-gray.jpg" alt="default" width="100%"/>
  </div>
 </details>
-<br>
 
 <details>
  <summary>Green</summary>
@@ -222,7 +218,6 @@ This is a comparison between the minimal(default) and stylish versions of the lo
     <img src="./images/colorschemes/previews/stylish-green.jpg" alt="default" width="100%"/>
  </div>
 </details>
-<br>
 
 <details>
  <summary>Purple</summary>
@@ -231,7 +226,6 @@ This is a comparison between the minimal(default) and stylish versions of the lo
     <img src="./images/colorschemes/previews/stylish-purple.jpg" alt="default" width="100%"/>
  </div>
 </details>
-<br>
 
 <details>
  <summary>Red</summary>
@@ -240,7 +234,6 @@ This is a comparison between the minimal(default) and stylish versions of the lo
     <img src="./images/colorschemes/previews/stylish-red.jpg" alt="default" width="100%"/>
  </div>
 </details>
-<br>
 
 <details>
  <summary>Yellow</summary>
