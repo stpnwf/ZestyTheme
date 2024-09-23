@@ -2,7 +2,7 @@
 
 A minimal and elegant theme for Jellyfin based on/inspired by [Ultrachromic](https://github.com/CTalvio/Ultrachromic), [Glassmorphism](https://github.com/alexyle/jellyfin-theme), [Scyfin](https://github.com/loof2736/scyfin), [JellyTheme](https://github.com/alexyle/jellyfin-theme) & [Zombie](https://github.com/MakD/zombie-release/tree/main).
  
-**Now with two options for login wallpapers: minimal and stylish!**<br>
+**Now with two ologin wallpaper options: minimal and stylish!**<br>
 Compatible with 10.9.10+ & Tablets!
 
 ---
@@ -13,6 +13,9 @@ Compatible with 10.9.10+ & Tablets!
 <img src="./images/nice-guys.jpg" alt="movies" width="100%"/>
 <img src="./images/avatar.jpg" alt="tv-shows" width="100%"/>
 <img src="./images/player.jpg" alt="player" width="100%"/>
+
+Two login wallpaper options: Minimal and Stylish.
+
 <img src="./images/login.jpg" alt="login" width="100%"/>
 
 **Mobile:**
@@ -32,7 +35,7 @@ Then, if you haven't already, enable Backdrops for _every_ device using this the
 
 ## Color schemes
 
-Plus **one** of the following @import lines if you'd like to change the default colors to one of the presets below (optional): 
+Add **one** of the following @import lines _if_ you'd like to change the default colors to one of the presets below (optional): 
 
 ### Cyan
 <img src="./images/colorschemes/cyan.png" alt="default" width="30%"/>
@@ -171,7 +174,7 @@ The default color scheme.
 For more info on custom colors [click here](./colorschemes/COLORS.md). For more color schemes check out MakD's [Zombie Repo](https://github.com/MakD/zombie-release/tree/main#color-palettes).
 
 ### Alt login wallpaper
-Finally _if_ you would like to use the alternative(stylish) login wallpaper, add the line below to your Custom CSS as well:
+Finally, _if_ you would like to use the alternative(stylish) login wallpaper, add the line below to your Custom CSS as well:
 
 ```css
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/login-alt.css');
@@ -242,7 +245,6 @@ This is a comparison between the minimal(default) and stylish versions of the lo
     <img src="./images/colorschemes/previews/stylish-yellow.jpg" alt="default" width="100%"/>
  </div>
 </details>
-<br>
 
 ---
 

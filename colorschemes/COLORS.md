@@ -6,31 +6,25 @@ Inspired by the [Zorin OS](https://zorin.com/os/) [color schemes](https://github
 
 **Template Colors:**
 
-<img src="./../images/colorschemes/cyan.png" alt="default" width="45%"/>
+<img src="./../images/colorschemes/cyan.png" alt="default" width="40%"/>
 
-<img src="./../images/colorschemes/blue.png" alt="blue" width="45%"/>
+<img src="./../images/colorschemes/blue.png" alt="blue" width="40%"/>
 
-<img src="./../images/colorschemes/coral.png" alt="coral" width="45%"/>
+<img src="./../images/colorschemes/coral.png" alt="coral" width="40%"/>
 
-<img src="./../images/colorschemes/gray.png" alt="gray" width="45%"/>
+<img src="./../images/colorschemes/gray.png" alt="gray" width="40%"/>
 
-<img src="./../images/colorschemes/green.png" alt="green" width="45%"/>
+<img src="./../images/colorschemes/green.png" alt="green" width="40%"/>
 
-<img src="./../images/colorschemes/purple.png" alt="purple" width="45%"/>
+<img src="./../images/colorschemes/purple.png" alt="purple" width="40%"/>
 
-<img src="./../images/colorschemes/red.png" alt="red" width="45%"/>
+<img src="./../images/colorschemes/red.png" alt="red" width="40%"/>
 
-<img src="./../images/colorschemes/yellow.png" alt="yellow" width="45%"/>
+<img src="./../images/colorschemes/yellow.png" alt="yellow" width="40%"/>
 
 ---
 
 ### Custom colors
-
-To add the theme to Jellyfin, copy the following line to Dashboard > General > Custom CSS:
-
-```
-@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/theme.css');
-```
 
 _If_ you didn't like any of the presets and would like to have custom colors, replace the R, G, B values below and paste it **underneath** the theme's `@import...` line:
 
@@ -45,11 +39,11 @@ _If_ you didn't like any of the presets and would like to have custom colors, re
 }
 ```
 
-**Then** use a color picker on the *background color* anywhere in Settings or Dashboard, set `--dark-apparent` to that value¹, and save it. **Now you are done.**
+**Then** use a color picker on the *background color* anywhere in Settings or Dashboard, set `--dark-apparent` to that value¹, and save it.
 
 ### Custom login wallpaper
 
-If you'd like to make your own custom login wallpaper to match it, in line with the ones I made, follow the instructions in `images/colorschemes/base.svg` _or_ edit the colors to your liking in `images/login-wallpapers/stylish.svg` (use Inkscape). Export and add this following line to Custom CSS:
+If you'd like to make your own custom login wallpaper to match the custom colors, in line with the ones I made, follow the instructions in `images/colorschemes/base.svg` _or_ edit the colors to your liking in `images/login-wallpapers/stylish.svg` (use Inkscape). Export and add this following line to Custom CSS:
 
 ```
 #loginPage {background: url(url-to-your-custom-wallpaper.jpg) !important;}

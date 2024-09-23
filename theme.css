@@ -49,6 +49,7 @@
     position: relative;
   }
   .layout-desktop .backgroundContainer {
+    background-size: cover; /* fix for gradient on 2K and 4K displays */
     position: fixed;
     opacity: 100%;
   }
@@ -1974,19 +1975,19 @@
 	  margin-top: 4px;
   }
 
-
-
-
-
-
   /* Removes hover bg from right headerbar */
 
   .headerRight .paper-icon-button-light:hover, .headerRight .paper-icon-button-light:hover:not(:disabled) {
-        background-color: transparent !important;
+    background-color: transparent !important;
   }
 
   .headerRight .paper-icon-button-light:focus, .headerRight .paper-icon-button-light:focus:not(:disabled) {
-        background-color: transparent !important;
+    background-color: transparent !important;
+  }
+  
+  /* Fix profile pic in top right headerbar */
+  .headerUserButton {
+    margin-right: 0.14em;
   }
 
 
