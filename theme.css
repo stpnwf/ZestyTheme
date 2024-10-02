@@ -122,15 +122,79 @@
     margin-bottom: 3vh;
   }
 
-  /* hides trailes tab */
+  /* hides trailer tab */
   button.emby-tab-button:nth-child(3) {
     display: none;
   }
 
-  /* Hides track selection box */
+  /* Hide track selection box logic */
 
+  .trackSelections > *:nth-child(n+3) {
+    visibility: hidden;
+  }
   .trackSelections {
-      display: none;
+    position: relative !important;
+  }
+  .selectAudioContainer, .selectSubtitlesContainer{
+    position: absolute;
+  }
+  .trackSelections .emby-select {
+	  width: 386px;
+	  overflow: hidden;
+	  text-overflow: ellipsis !important; 
+  }
+  .trackSelections .selectContainer #embyselect0,
+  .trackSelections .selectContainer #embyselect2,
+  .trackSelections .selectContainer #embyselect3 {
+    padding-right: 40px !important;
+    background-color: rgba(var(--dark),.75) !important;
+    color: rgba(var(--white),.9) !important;
+    backdrop-filter: blur(5px);
+  }
+  .selectContainer{
+    width: 480px !important;
+  }
+  .layout-mobile .trackSelections .selectContainer #embyselect0,
+  .layout-mobile .trackSelections .selectContainer #embyselect2,
+  .layout-mobile .trackSelections .selectContainer #embyselect3 {
+    background-color: rgba(var(--darkest),.75) !important;
+  }
+  
+  .layout-mobile .emby-select {
+    width: 275px;
+  }
+  .layout-mobile .selectContainer{
+    width: 340px !important;
+  }
+  
+  /* Move track selection box */
+  .detailSection {
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      box-orient: vertical;
+  }
+  .detailSection .detailSectionContent {
+      -webkit-box-ordinal-group: 1;
+      -moz-box-ordinal-group: 1;
+      box-ordinal-group: 1;
+  }
+  .detailSection .recordingFields {
+      -webkit-box-ordinal-group: 2;
+      -moz-box-ordinal-group: 2;
+      box-ordinal-group: 2;
+  }
+  .detailSection .trackSelections {
+      -webkit-box-ordinal-group: 3;
+      -moz-box-ordinal-group: 3;
+      box-ordinal-group: 3;
+  }
+  .detailSection .itemDetailsGroup {
+      -webkit-box-ordinal-group: 4;
+      -moz-box-ordinal-group: 4;
+      box-ordinal-group: 4;
   }
 
   /* hides movie name only when there is a logo - from Zombie */
@@ -1969,6 +2033,11 @@
      
     padding: calc(0.8em - 4.5px) !important;
   }
+  
+  /* align labels with fields in track selection */
+  .trackSelections .selectContainer .selectLabel {
+    padding-top: calc(calc(0.8em - 4.5px)/2) !important;
+  }
 
   /* fixes audio/subtitle selector arrow in media page */
   .trackSelections .selectContainer .selectArrowContainer .selectArrow {
@@ -2261,7 +2330,6 @@
 
   .layout-mobile .itemTags,
   .layout-mobile .itemName.originalTitle,
-  .layout-mobile .trackSelections,
   .layout-mobile .itemExternalLinks,
   .layout-mobile .writersGroup,
   .layout-mobile .studiosGroup,
@@ -2897,6 +2965,12 @@
     .layout-mobile .mainDetailButtons {
       justify-content: space-evenly;
     }
+    .layout-mobile .emby-select {
+      width: 245px;
+    }
+    .layout-mobile .selectContainer{
+      width: 315px !important;
+    }
   }
 
   @media (min-width: 23em) and (orientation: portrait) { 
@@ -3111,5 +3185,4 @@
       margin-bottom: 0;
     }
   }
-
 
