@@ -239,6 +239,12 @@
     height: 7em;  
     width: 70%;
   }
+
+  /* fix for title being too high when there is no logo */  
+  .nameContainer .itemName.infoText.parentNameLast > bdi {
+	  position: relative;
+	  top: 55%;
+  }
   
   /* header transparent */
 
@@ -2555,7 +2561,7 @@
     color: rgba(var(--accent),1) !important;
   }
 
-  /* fixes elector arrow's wrong placement */
+  /* fixes selector arrow's wrong placement */
   .selectArrow {
 	  margin-top: 1.1em;
   }
