@@ -48,12 +48,14 @@
     height: 100vh;
     position: relative;
   }
+  .layout-tv .backgroundContainer, 
   .layout-desktop .backgroundContainer {
-    background-size: cover; /* fix for gradient on 2K and 4K displays */
+    background-size: cover !important; /* fix for gradient on 2K and 4K displays */
     position: fixed;
     opacity: 100%;
   }
   /* controls gradient overlay properties - url to img in colorschemes */
+  .layout-tv .backgroundContainer
   .layout-desktop .backgroundContainer {
     position: fixed;
     top: 0;
@@ -151,7 +153,7 @@
     color: rgba(var(--white),.9) !important;
     backdrop-filter: blur(5px);
   }
-  .selectContainer{
+  .trackSelections .selectContainer{
     width: 480px !important;
   }
   .layout-mobile .trackSelections .selectContainer #embyselect0,
@@ -160,10 +162,10 @@
     background-color: rgba(var(--darkest),.75) !important;
   }
   
-  .layout-mobile .emby-select {
+  .layout-mobile .trackSelections .emby-select {
     width: 275px;
   }
-  .layout-mobile .selectContainer{
+  .layout-mobile .trackSelections .selectContainer{
     width: 340px !important;
   }
   
@@ -197,15 +199,20 @@
       box-ordinal-group: 4;
   }
 
-  /* hides movie name only when there is a logo - from Zombie */
+  /* hides movie name only when there is a logo - tweaked from Zombie */
   #itemDetailPage .itemName.infoText.parentNameLast > bdi:first-child,
   #itemDetailPage .parentName > bdi:first-child {
-    opacity: 0;
+      opacity: 0;
   }
   .hide + .detailPageWrapperContainer .itemName > bdi:first-child,
   .hide + .parentName > bdi:first-child {
-    opacity: 1 !important;
+      opacity: 1 !important;
   }
+  /* Ensure title is always visible in TV layout */
+  .layout-tv .itemName > bdi:first-child {
+      opacity: 1 !important;
+  }
+
   /* text layout - from Zombie */
   .layout-desktop .btnShuffle,
   .layout-desktop .listViewUserDataButtons,
@@ -216,7 +223,6 @@
   .layout-desktop .material-icons.detailButton-icon.theaters {
     display: none;
   }
-
   .layout-desktop .btnMoreCommands::after,
   .layout-desktop .btnPlay::after,
   .layout-desktop .btnPlayTrailer::after,
@@ -342,13 +348,6 @@
   .layout-desktop #guestCastContent .card.overflowPortraitCard {
     font-size:95%!important;
     width: 13.6em !important;
-  }
-
-  .layout-tv #castContent .card.overflowPortraitCard {
-    font-size: 90%!important;
-    width: 13em !important;
-    margin-left: -1.6vw !important;
-    height: 30vh;
   }
 
   .layout-desktop #similarCollapsible .card.overflowPortraitCard{
@@ -1446,7 +1445,7 @@
       }
     }
     .indicator {
-      backdrop-filter: blur(2px);
+    /*  backdrop-filter: blur(2px); */
     }
     
     .paper-icon-button-light:hover:not(.headerButtonRight) {
@@ -2545,6 +2544,7 @@
  .layout-mobile .headerRight {
 	  height: 40px !important;
 	  filter: drop-shadow(3px 2px 3px rgba(var(--darkest),.35));
+	  margin-right: 0.35em;
   }
 
   /* adds padding to custom css box */
@@ -2971,10 +2971,10 @@
     .layout-mobile .mainDetailButtons {
       justify-content: space-evenly;
     }
-    .layout-mobile .emby-select {
+    .layout-mobile .trackSelections .emby-select {
       width: 245px;
     }
-    .layout-mobile .selectContainer{
+    .layout-mobile .trackSelections .selectContainer{
       width: 315px !important;
     }
   }
@@ -3192,3 +3192,230 @@
     }
   }
 
+
+
+/* TV Stuff */
+.layout-tv .backdropImage {
+    filter: blur(16px) saturate(120%) contrast(120%) brightness(40%);
+  }
+  
+.layout-tv {
+	font-size: 190% !important;
+}
+
+.layout-tv .card:focus .cardBox.visualCardBox, .layout-tv .card:focus .cardBox:not(.visualCardBox) .cardScalable {
+	border-color: rgba(var(--accent),.75) !important;
+	border-radius: 50px !important;
+	background-color: rgba(var(--accent),0.75);
+	box-shadow: 2px 3px 16px rgba(var(--accent),0.45);
+	backdrop-filter: blur(5px);
+}
+
+.layout-tv .missingIndicator, .layout-tv .unairedIndicator, .layout-tv .detailTable, .layout-tv .primaryImageWrapper > img, .layout-tv .toast, .layout-tv .cardContent, .layout-tv .sessionNowPlayingInnerContent, .layout-tv .listItem, .layout-tv .listItem:hover, .layout-tv .cardImage, .layout-tv .fab, .layout-tv .raised, .layout-tv .itemSelectionPanel, .layout-tv .cardContent-button, .layout-tv .cardContent-shadow, .layout-tv .itemDetailImage, .layout-tv .cardImageContainer, .layout-tv .cardPadder, .layout-tv .listItemImage, .layout-tv .listItemButton, .layout-tv .headerButton, .layout-tv .innerCardFooter, .layout-tv .blurhash-canvas, .layout-tv .dialog, .layout-tv .countIndicator, .layout-tv .playedIndicator, .layout-tv .listItemIcon, .layout-tv .listItem-border, .layout-tv .button-flat, .layout-tv .visualCardBox, .layout-tv .emby-select-withcolor, .layout-tv .chapterThumbTextContainer, .layout-tv .chapterThumbContainer, .layout-tv .chapterThumb, .layout-tv .emby-input, .layout-tv .emby-textarea, .layout-tv .emby-select-withcolor, .layout-tv .nowPlayingPageImage, .layout-tv .upNextDialog-poster-img, .layout-tv .upNextContainer {
+	border-radius: 48px !important;
+}
+
+.layout-tv .itemProgressBar {
+	backdrop-filter: blur(8px);
+	height: 20px;
+}
+
+.layout-tv .innerCardFooter {
+	width: calc(100% - 82px);
+	bottom: 36px;
+	box-shadow: 2px 3px 16px rgba(var(--dark),0.45);
+}
+
+.layout-tv .sectionTabs {
+	width: auto !important;
+	align-self: center !important;
+	margin-top: -1em;
+}
+
+.layout-tv .emby-tabs-slider .emby-button.show-focus:focus {
+	background: rgba(var(--accent),0.5) !important;
+	color: rgb(var(--dark));
+	border-radius: var(--rounding-circle);
+}
+
+.layout-tv .emby-tab-button.emby-button.show-focus.emby-tab-button-active.lastFocused {
+  background-color: inherit;
+}
+
+.layout-tv .emby-tab-button.emby-button.show-focus,
+.layout-tv .emby-tab-button.emby-button.show-focus.emby-tab-button-active.lastFocused {
+  margin: 0.4em;
+  height: 3.6em;
+}
+
+/* Turn off TabBar animation */
+
+.layout-tv .emby-tab-button.show-focus:focus {
+	-webkit-transform: none !important;
+	transform: none !important;
+}
+.layout-tv .emby-tab-button.show-focus:focus {
+	-webkit-transform: none !important;
+	transform: none !important;
+}
+.layout-tv .emby-tab-button.show-focus:focus {
+	-webkit-transform: none !important;
+	transform: none !important;
+}
+.layout-tv .emby-button.show-focus:focus {
+	-webkit-transform: none !important;
+	transform: none !important;
+	background-color: rgba(var(--accent),.75) !important;
+	padding: 0.4em;
+	padding-right: 0.8em;
+	padding-left: 0.7em;
+	border-radius: 16px;   /* update */
+	color: rgb(var(--dark)) !important;
+}
+
+.layout-tv .headerRight {
+	height: auto !important;
+}
+
+
+.layout-tv .chapterCard .innerCardFooter {
+	background: rgba(var(--dark), 0.5);
+	color: rgba(var(--accent), 0.9);
+	backdrop-filter: blur(5px);
+	width: 50%;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 18px !important;
+	left: 18px;
+	padding: 7px;
+	border-radius: 34px !important;
+}
+
+.layout-tv [dir="ltr"] .detailPagePrimaryContainer {
+	padding-left: 4vw;
+}
+
+.layout-tv [dir="ltr"] .detailPageContent {
+	padding-left: 4vw;
+	padding-right: 2%;
+}
+
+.layout-tv #itemDetailPage .itemTags {
+  display: none;
+}
+
+.layout-tv [dir="ltr"] .itemsContainer > .card > .cardBox {
+	margin-left: 0;
+	margin-right: 1.5em;
+}
+
+.layout-tv #castContent .card.overflowPortraitCard {
+	font-size: 100% !important;
+	width: 17.3em !important;
+	margin-left: 0vw !important;
+	height: 37vh;
+}
+
+.layout-tv #guestCastContent .card.overflowPortraitCard {
+	font-size: 100% !important;
+	width: 17.3em !important;
+	margin-left: 0vw !important;
+	height: 37vh;
+}
+
+.layout-tv .card.show-focus:not(.show-animation) .cardBox.visualCardBox, .layout-tv .card.show-focus:not(.show-animation) .cardBox:not(.visualCardBox) .cardScalable {
+	border: 0.8em solid transparent;
+	border-radius: 72px !important;
+}
+
+.layout-tv .indicator {
+	height: 2.3em;
+	width: 2.3em;
+	top: -10px;
+	position: relative;
+}
+
+.layout-tv .countIndicator, .layout-tv .playedIndicator {
+	font-size: 130%;
+	border-radius: 0px 0px 0px 48px !important;
+	box-shadow: -1px 1px 17px 1px rgba(var(--darkest),.75);
+}
+
+
+.emby-button-foreground {
+
+}
+
+.layout-tv .button-flat {
+  	border-radius: 36px !important; /* update */
+}
+
+  /* text layout - from Zombie */
+  .layout-tv .btnShuffle,
+  .layout-tv .listViewUserDataButtons,
+  .layout-tv .material-icons.detailButton-icon.check,
+  .layout-tv .material-icons.detailButton-icon.favorite,
+  .layout-tv .material-icons.detailButton-icon.more_vert,
+  .layout-tv .material-icons.detailButton-icon.replay,
+  .layout-tv .material-icons.detailButton-icon.theaters {
+    display: none;
+  }
+
+  .layout-tv .btnMoreCommands::after,
+  .layout-tv .btnPlay::after,
+  .layout-tv .btnPlayTrailer::after,
+  .layout-tv .btnPlaystate::after,
+  .layout-tv .btnReplay::after,
+  .layout-tv .btnUserRating::after,
+  .layout-tv .btntheaters::after {
+    content: attr(title);
+  }
+
+.layout-tv #childrenCollapsible .padded-right {
+	padding-right: 20%;
+}
+
+.layout-tv .detailSection .detailSectionContent {
+	padding-right: 25%;
+	padding-left: 2%;
+}
+
+.listItemImage-large-tv {
+	height: 14vw !important;
+	width: 21vw !important;
+}
+
+.layout-tv #childrenContent .listItem {
+	padding-left: 1.6em !important;
+	padding-right: 1.6em !important;
+	padding-top: 1.6em !important;
+	padding-bottom: 1.6em !important;
+	border-radius: 94px !important;
+}
+
+.layout-tv #childrenContent .listItem:focus {
+	background-color: rgba(var(--dark),.75);
+	backdrop-filter: blur(12px);
+}
+
+.layout-tv .listItemIndicators .indicator {
+	top: 0px;
+}
+
+.layout-tv .listItemIndicators .countIndicator, .layout-tv .listItemIndicators .playedIndicator {
+	border-radius: 0px 48px 0px 48px !important;
+}
+
+.layout-tv .listItemBody {
+	padding: 1.35em 1.75em;
+	font-size: 114%;
+}
+
+.layout-tv .secondary.listItem-overview.listItemBodyText {
+	height: 7.5em;
+}
+
+.layout-tv .verticalSection h2 {
+  font-size: 1.75em;
+  font-weight: 600;
+}
