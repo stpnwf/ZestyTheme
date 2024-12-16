@@ -386,7 +386,7 @@
   /* Add padding to description*/
   .layout-desktop .detailSectionContent {
    /*   margin-top: 1.25vw !important; */
-      padding: 0vw 0vw 0.25vw 1vw !important;
+      padding: 0vw 0vw 0.25vw 0vw !important;
   }
 
   /* makes description and tagline bold */
