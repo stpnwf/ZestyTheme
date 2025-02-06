@@ -7,6 +7,7 @@
     --jade-green: 0, 172, 111;        /* 00AC6F */
     --honey-yellow: 255, 194, 85;     /* FFC255 */
     --cherry-red: 212, 51, 83;        /* D43353 */
+    --deep-blue: 78, 116, 247;        /* 4E74F7 */
   }
   :root {
     --rounding: 12px;
@@ -73,6 +74,9 @@
   .layout-desktop .detailImageContainer .card,
   .layout-desktop .itemTags {
     display: none;
+  }
+  .layout-desktop .cardImageIcon .material-icons .folder {
+    display: block !important;
   }
 
   .detailsGroupItem.writersGroup,
@@ -411,6 +415,11 @@
   .itemExternalLinks {
     display: none;
   }
+  
+  /* makes it so 5 lines are show in description before show more is shown */
+  .detail-clamp-text {
+	  -webkit-line-clamp: 5 !important;
+  }
 
   /* Rounded left drawer buttons */
   .navMenuOption,
@@ -508,7 +517,8 @@
   #server-subheader,
   #devices-subheader, 
   #livetv-subheader,
-  #advanced-subheader {
+  #advanced-subheader,
+  #plugins-subheader {
     color: rgba(var(--accent),0.7);
   }
 
@@ -842,6 +852,9 @@
   .iconOsdProgressInner {
     background: rgb(var(--accent));
   }
+  .iconOsdProgressOuter {
+	  background: rgba(var(--dark-highlight));
+  }
 
   .paper-icon-button-light:hover,
   .raised.homeLibraryButton:hover,
@@ -1022,10 +1035,10 @@
   .emby-textarea, 
   .emby-select-withcolor,
   .nowPlayingPageImage,
-  .upNextDialog-poster-img,
-  .upNextContainer {
+  .upNextDialog-poster-img {
     border-radius: var(--rounding) !important;
   }
+
 
 
   /* Makes check boxes circular */
@@ -1086,6 +1099,14 @@
     right: 0;
     top: 0;
   }
+  .mediaSourceIndicator {
+	  border-radius: var(--rounding) 0px !important;
+	  box-shadow: -1px 1px 5px 1px rgba(var(--darkest),.5);
+	  background: rgba(var(--accent),1);
+	  color: rgb(var(--darkest));
+	  left: 0;
+    top: 0;
+  }
   .innerCardFooter {
   /*  border-radius: 0px var(--rounding) !important; */  /* conflicts with my edits of the progress bar */
   /*  box-shadow: 1px 0px 5px 2px rgba(var(--dark),0.5);  */
@@ -1099,16 +1120,6 @@
   }
   .playedIndicator {
     background: rgba(var(--darkest), 1)
-  }
-
-  .mediaSourceIndicator {
-    left: 0;
-    top: 0;
-  }
-  .mediaSourceIndicator {
-    border-radius: var(--rounding) 0px !important;
-    box-shadow: -1px 1px 5px 1px rgba(var(--darkest),.5);
-    background: rgba(0,0,0,0.5);
   }
 
   .countIndicator, .playedIndicator {
@@ -1168,9 +1179,26 @@
   }
 
   .paper-icon-button-light:hover, .paper-icon-button-light:hover:not(:disabled) {
-    background-color: rgba(var(--accent),0.25) !important;
+	  background-color: rgba(var(--accent),0.25) !important;
   }
-
+  .listPaging .paper-icon-button-light:hover, .listPaging .paper-icon-button-light:hover:not(:disabled) {
+    color: rgba(var(--darkest)) !important;
+    background-color: rgba(var(--accent),0.6) !important;
+    opacity: 0.8;
+  }
+  .listPaging .paper-icon-button-light:disabled {
+	  opacity: .3;
+	  color: rgba(var(--darkest));
+	  background-color: rgba(var(--accent),.6);
+  }
+  .listPaging .paper-icon-button-light {
+    color: rgba(var(--darkest)) !important;
+    background-color: rgba(var(--accent),0.55) !important;
+    opacity: 1;
+  }
+  .listPaging .btnPreviousPage {
+    margin-left: 0.9em;
+  }
   .cardOverlayFab-primary:hover {
 	  -webkit-transform: scale(1.4);
 	  transform: scale(1.4);
@@ -1583,23 +1611,88 @@
   /* #### Media Player #### */
 
 
-  /* hide volume bar in media player */
-
+  /* hide and rotate volume bar in media player */
+  
+  /* Ensure the volume slider container is properly rotated and positioned */
   .osdVolumeSliderContainer {
-	  -webkit-flex-grow: 1;
-	  flex-grow: 1;
-	  width: 9em;
-	  display: none;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    min-width: 3em; /* Vertical height before rotation */
+    min-height: 4em; /* Width before rotation */
+    width: 6.5em; /* Actual width after rotation */
+    height: 2em; /* Actual height after rotation */
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    transition: opacity 0.3s ease 1s, visibility 0s linear 1s;
+    pointer-events: none;
+    transform-origin: top left;
+    transform: rotate(-90deg);
+    background-color: rgba(var(--dark), 0.8);
+    border-radius: var(--rounding);
+    backdrop-filter: blur(3px);
   }
-
+  /* Increase the hover area around the mute button */
+  .buttonMute {
+    position: relative;
+  }
+  .buttonMute::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    z-index: 1;
+  }
+  /* Make the volume slider container visible and interactive */
+  .buttonMute:hover + .osdVolumeSliderContainer,
+  .osdVolumeSliderContainer:hover {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto; /* Keep this interactive */
+    transition: opacity 0.3s ease, visibility 0s;
+  }
+  /* Keep the volume slider interactive even when not directly hovered */
+  .osdVolumeSliderContainer {
+    /* Add this to maintain interaction */
+    pointer-events: auto !important;
+  }
+  /* But when hovering over non-volume controls, allow interaction */
+  .player:hover:not(.osdVolumeSliderContainer):not(.buttonMute) * {
+    pointer-events: auto;
+  }
+  /* Prevent other elements from interfering when volume slider is active */
+  .player .osdVolumeSliderContainer:hover ~ * {
+    pointer-events: none;
+  }
+  /* rotate volume number indicator */
+  .osdVolumeSliderContainer .sliderBubbleTrack {
+	  left: 0;
+	  margin: 4.1em 5em;
+	  position: absolute;
+	  right: 0;
+	  transform: rotate(90deg);
+  }
+  /* tweak volume slider */
   .osdVolumeSlider.mdl-slider.mdl-js-slider.mdl-slider-hoverthumb {
-    display: none;
+    display: initial;
+    position: absolute;
+    left: 4% !important;
+    max-width: 92% !important;
   }
-
   .volumeButtons {
 	  display: flex;
 	  margin: 0 1em 0 .29em;
 	  margin-right: 0px;
+  }
+  /* theme volume OSD */
+  .iconOsd, .subtitleSyncContainer {
+	-webkit-backdrop-filter: blur(5px);
+	  backdrop-filter: blur(5px);
+	  background: rgba(var(--dark),.8);
+	  border-radius: var(--rounding);
+	  color: rgba(var(--accent));
   }
 
 
@@ -1691,7 +1784,7 @@
 
   /* round and blur progress bar */
   .mdl-slider-background-flex {
-    background:hsla(0,0%,100%,.3);
+    background: rgba(var(--dark-highlight));
     border:0;
     display:-webkit-flex;
     display:flex;
@@ -1747,6 +1840,17 @@
   .mainDrawer {
 	  border-top-right-radius: var(--rounding-large) !important;
 	  border-bottom-right-radius: var(--rounding-large) !important;
+  }
+  
+  /* prevents mainDrawer shadow from showing up */
+  div.mainDrawer.transition.touch-menu-la {
+    width: 320px !important;
+    left: -340px !important;
+  }
+  div.mainDrawer.transition.touch-menu-la.drawer-open {
+    width: 320px !important;
+    left: -340px !important;
+    transform: translateX(340px) !important;
   }
 
   .toast {
@@ -2257,6 +2361,16 @@
 	  position: absolute;
 	  /* margin-left: 1.5vw; */
   }
+  
+  /* Tweaks up Next dialog */
+  [dir="ltr"] .upNextContainer {
+	  margin: 0 2em 2em 0;
+	  padding: 1em .9em 1.1em 1.5em;
+	  border-radius: var(--rounding-large);
+	  color: rgba(var(--accent),.75);
+	  background-color: rgba(var(--dark),.8);
+	  backdrop-filter: blur(6px);
+}
 
   .cardBox-bottompadded {
 	  margin-bottom: 1.5em !important;
@@ -3419,3 +3533,4 @@
   font-size: 1.75em;
   font-weight: 600;
 }
+
