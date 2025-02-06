@@ -272,7 +272,7 @@
       background-color: rgb(var(--white));
       color: rgb(var(--darkest)) !important;
       margin-right: 3vw !important;
-      border-radius: 14px !important;
+      border-radius: calc(var(--rounding) + 2px) !important;
   }
 
   .layout-desktop .btnPlay:hover {
@@ -686,6 +686,274 @@
   .css-xfvph6 {
 	  color: rgb(var(--accent));
   }
+  
+  /* Dashboard Activity grid */
+  
+	.css-dlg340 {
+		background-color: rgba(var(--dark)) !important;
+	}
+	.css-13s45j6 {
+		border-radius: 10px;
+		background-color: rgba(var(--darkest)) !important;
+	}
+	.css-1vrqlyr {
+		border-bottom: 1px solid rgba(var(--dark-highlight));
+		text-align: left;
+	}
+	.css-1aaapa3 {
+		background-color: rgba(var(--darkest));
+	}
+	.css-t802yl {
+		backdrop-filter: blur(4px);
+		background-color: rgba(var(--accent),.1);
+	}
+	.css-1295fc2 {
+		background-color: rgba(var(--darkest));
+	}
+	.css-68rqdf {
+		color: rgba(var(--accent));
+		border-bottom: 1px solid rgba(var(--dark-highlight));
+	}
+	.css-1a8g65z, .css-oks7my, .css-b5hga1, .css-1iir62y, .css-1iv7dy2, .css-1eanh3q, .css-3fifbo, .css-1r0cwag, .css-1tahsnm, .css-1an0rv9, .css-172zye7, .css-12a2fyq, .css-pqd6ex, .css-udlpj8, .css-5c47yo, .css-949vxu, .css-1vrqlyr, .css-149t56k, .css-2j9z2c, .css-1g9k3fn, .css-1toc1g5, .css-1dtkjng {
+		color: rgb(var(--accent));
+		border-bottom: 1px solid rgba(var(--dark-highlight));
+	}
+	.css-1a8g65z:hover, .css-oks7my:hover, .css-b5hga1:hover, .css-1iir62y:hover, .css-1iv7dy2:hover, .css-1eanh3q:hover, .css-3fifbo:hover, .css-1r0cwag:hover, .css-1tahsnm:hover, .css-1an0rv9:hover, .css-172zye7:hover, .css-12a2fyq:hover, .css-pqd6ex:hover, .css-1q0cqx7:hover {
+		background-color: rgba(var(--accent),.05);
+	}
+	.css-l183c1 {
+	  outline: rgba(var(--dark-highlight)) solid 1px;
+  }
+	.css-vusf8l:hover, .css-6ci2yv:hover {
+		background-color: rgba(var(--accent), 0.08);
+	}
+	.css-vusf8l {
+		color: rgb(var(--accent));
+	}
+	.css-1p1d6ke {
+		background-color: rgba(var(--darkest));
+	}
+	.css-667gdg.Mui-selected:hover {
+		background-color: rgba(var(--accent), 0.28);
+	}
+	.css-1q0cqx7 {
+		border-bottom: 1px solid rgba(var(--dark-highlight));
+		color: rgba(var(--accent),.85);
+	}
+	.css-piyj2q {
+		border-bottom: 1px solid rgba(var(--dark-highlight));
+		color: rgba(var(--accent),.85);
+	}
+	.css-13s45j6 {
+		color: rgba(var(--accent)) !important;
+	}
+	.css-adnr4p {
+		margin: 0px;
+		padding: 15px 8px;
+		outline: 0px;
+		background-color: rgba(var(--dark-apparent));
+	}
+	.css-1fv02xh {
+		color: rgb(var(--darkest));
+		background-color: rgb(var(--accent));
+		margin: 1px;
+	}
+	.css-1fv02xh.Mui-disabled {
+		color: rgba(var(--accent), 0.8);
+		background-color: rgba(var(--accent), 0.12);
+	}
+	.css-1pcx92s {
+		color: rgba(var(--accent),.7);
+	}
+	.css-1e5h596, .css-1js8be7 {
+		color: rgba(var(--accent));
+	}
+
+	.css-o671j5, .css-1ur4k8w, .css-upfnam, .css-y1yp4r, .css-atm4hq, .css-1elv40w, .css-1ao7rt2 {
+		color: rgba(var(--accent));
+		border-bottom: 1px solid rgba(var(--dark-highlight),.4);
+	}
+	.css-j90t4i:hover {
+		background-color: rgba(var(--accent), 0.15);
+		border-radius: var(--rounding-alt);
+	}
+	.css-1jrg1b8 {
+		background-color: rgba(var(--dark-highlight));
+		color: rgba(var(--darkest)) !important;
+		box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+		background-image: linear-gradient(rgba(var(--accent), 0.15), rgba(var(--accent), 0.05));
+	}
+	.css-agav4a {
+			background-color: rgba(var(--accent),.15);
+	}
+	.MuiGrid-root .MuiCollapse-wrapper .css-8atqhb {
+		background-color: rgba(var(--dark),.8);
+	}
+	.css-15r4jdn, .css-1npx6a3, .css-yckc1l, .css-2x19dy, .css-qyeuq0, .css-405fy4 {
+		color: rgb(var(--accent));
+	  border-bottom: 1px solid rgb(var(--dark-highlight));
+	}
+	.css-1ntmlto {
+		color: rgb(var(--accent));
+	}
+	.css-1ntmlto::before {
+		border-bottom: 1px solid rgba(var(--accent-off), 0.7);
+	}
+	.css-1ntmlto:hover:not(.Mui-disabled, .Mui-error)::before {
+		border-bottom: 2px solid rgba(var(--accent), 0.8);
+	}
+	.css-19f3993 {
+		color: rgb(var(--accent));
+	}
+	.css-vusf8l:hover {
+		background-color: rgba(var(--accent), 0.08);
+	}
+	.css-d0cm6k.Mui-active {
+		color: rgba(var(--accent));
+	}
+	.css-1egpgfe {
+		color: rgba(var(--accent));
+	}
+	.css-667gdg.Mui-selected {
+		color: rgb(var(--darkest));
+		background-color: rgba(var(--accent), 0.66);
+	}
+	.css-667gdg:hover {
+		text-decoration: none;
+		background-color: rgba(var(--accent), 0.08);
+	}
+	.css-667gdg {
+		color: rgba(var(--accent));
+	}
+	.css-14oqswf {
+		color: rgba(var(--accent));
+	}
+	.css-nf1frv.Mui-disabled {
+		color: rgba(var(--accent), 0.3);
+	}
+	.css-d0cm6k .MuiTableSortLabel-icon {
+		color: rgb(var(--accent)) !important;
+	}
+	.css-d0cm6k.Mui-active .MuiTableSortLabel-icon {
+		opacity: 1;
+		color: rgba(var(--accent), 0.7);
+	}
+	.css-7sfyhx {
+		border-color: rgba(var(--accent), 0.12);
+	}
+	.css-10dubda::before {
+		background-color: rgba(var(--dark-highlight), 0.4);
+	}
+	.css-o54vul {
+		background-color: rgba(var(--accent));
+		border: 1px solid rgb(var(--accent));
+		color: rgba(var(--darkest));
+		border-radius: calc(var(--rounding) - 4px);
+	}
+	.css-o54vul:hover {
+		background-color: rgba(var(--accent),.8);
+		border: 1px solid rgb(var(--accent),.8);
+		color: rgba(var(--darkest));
+	}
+	.css-o54vul.Mui-disabled {
+		color: rgba(var(--darkest), 1);
+		border: 1px solid rgba(var(--accent-off));
+		background-color: rgba(var(--accent-off));
+	}
+	.css-90jypu, .css-83fgej {
+		border-bottom: 1px solid rgba(var(--dark-highlight), 0.4);
+		color: rgb(var(--accent));
+		background-color: rgba(var(--dark-highlight),.01);
+	}
+	.css-100ygog, .css-10g35kp {
+		background-color: rgba(var(--dark-highlight),.01);
+	}
+	.css-1e9ts8t {
+		background-color: rgba(var(--dark), .6);
+		transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+		border-radius: var(--rounding);
+		box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+		background-image: linear-gradient(rgba(var(--darkest), 0.65), rgba(var(--darkest), 0.65));
+		color: rgb(var(--accent));
+	}
+	.css-10dubda:first-of-type {
+		border-top-left-radius: var(--rounding);
+		border-top-right-radius: var(--rounding);
+	}
+	.css-10dubda:last-of-type {
+		border-bottom-left-radius: var(--rounding);
+		border-bottom-right-radius: var(--rounding);
+	}
+	.css-10dubda.Mui-expanded {
+		margin: 1px 0px;
+	}
+	.css-8atqhb {
+		background-color: rgba(var(--darkest));
+		padding: 12px;
+	}
+	.css-1rwymvo {
+		color: rgb(var(--darkest));
+		background-color: rgb(var(--cherry-red));
+		border-radius: calc(var(--rounding) - 4px);
+	}
+	.css-1rwymvo:hover {
+		background-color: rgba(var(--cherry-red),.7);
+	}
+	.css-2qp78l {
+		color: rgba(var(--accent));
+		text-decoration: underline rgba(var(--accent), 0.4);
+	}
+	.css-2qp78l:hover {
+		color: rgba(var(--deep-blue));
+		text-decoration: underline rgba(var(--deep-blue), .8);
+	}
+	.css-1e9ts8t {
+		color: rgb(var(--accent));
+	}
+	.css-g69rp1 {
+		border-radius: var(--rounding-alt);
+		background-image: linear-gradient(rgba(var(--accent), 0.1), rgba(var(--accent), 0.1));
+		font-weight: 600;
+		padding: 8px 16px;
+		text-shadow: 0px 0px 4px rgba(0,0,0,0) !important;
+		color: rgb(var(--darkest));
+		background-color: rgb(var(--dark-highlight));
+	}
+	.css-g69rp1 .MuiAlert-icon {
+		color: rgb(var(--darkest));
+	}
+	.css-1jrg1b8 {
+		color: rgb(var(--accent));
+		border-radius: var(--rounding);
+	}
+	.css-10dubda, .css-1n3veo1 {
+		color: rgba(var(--accent));
+	}
+	.css-10dubda {
+		background-image: linear-gradient(rgba(var(--darkest), 0.85), rgba(var(--darkest), 0.85));
+		border-radius: 0px;
+		color: rgba(var(--accent));
+	}
+	/* toggles */
+	.css-p6d6nq, .css-p6d6nq.Mui-checked {
+		color: rgb(var(--darkest));
+	}
+	.css-ecvcn9 {
+		width: 58px;
+		height: 38px;
+		padding: 6px;
+	}
+	.css-p6d6nq.Mui-checked + .MuiSwitch-track {
+		background-color: rgb(var(--accent));
+	}
+	.css-g5sy4h {
+		background-color: rgba(var(--accent-off),.5);
+		opacity: 1;
+		border-radius: var(--rounding-large);
+	}
+	.css-p6d6nq.Mui-checked + .MuiSwitch-track {
+		opacity: 1;
+	}
 
   /* Dashboard Devices > DLNA */
 
