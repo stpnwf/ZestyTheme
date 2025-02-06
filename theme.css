@@ -2342,7 +2342,7 @@
   }
 
 
-  #childrenCollapsible .padded-right {
+  .layout-desktop #childrenCollapsible .padded-right {
 	  padding-right: 38%;
   }
 
