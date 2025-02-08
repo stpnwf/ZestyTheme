@@ -1375,6 +1375,12 @@
 	  left: 0;
     top: 0;
   }
+  .videoIndicator {
+    border-radius: 0px var(--rounding) !important;
+    box-shadow: -1px 1px 5px 1px rgba(var(--darkest),.5);
+	  background: rgba(var(--accent),1);
+	  color: rgb(var(--darkest));
+  }
   .innerCardFooter {
   /*  border-radius: 0px var(--rounding) !important; */  /* conflicts with my edits of the progress bar */
   /*  box-shadow: 1px 0px 5px 2px rgba(var(--dark),0.5);  */
@@ -1398,7 +1404,7 @@
 
   /* fix for changes in 10.9.x */
   [dir="ltr"] .cardIndicators {
-    right: 0em;
+    right: 0em !important;
   }
 
 
