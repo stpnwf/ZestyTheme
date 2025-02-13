@@ -938,6 +938,9 @@
 	.css-p6d6nq, .css-p6d6nq.Mui-checked {
 		color: rgb(var(--darkest));
 	}
+	.css-p6d6nq.Mui-checked.Mui-disabled {
+	  color: rgba(var(--darkest));
+  }
 	.css-ecvcn9 {
 		width: 58px;
 		height: 38px;
@@ -954,6 +957,62 @@
 	.css-p6d6nq.Mui-checked + .MuiSwitch-track {
 		opacity: 1;
 	}
+	.css-6zls91 {
+	  background-color: rgba(var(--dark),.65);
+	  color: rgba(var(--accent));
+	  border-radius: var(--rounding);
+	  background-image: linear-gradient(rgba(var(--accent-off), 0.16), rgba(var(--accent-off), 0.16));
+	  backdrop-filter: blur(5px);
+  }
+  .css-11vnn2q {
+	  color: rgba(var(--honey-yellow), .85);
+  }
+  .css-11vnn2q {
+	  color: rgba(var(--darkest), 1);
+  }
+  .css-j733up {
+    border-radius: var(--rounding-alt);
+  }
+  .css-j733up:hover {
+	  background-color: rgba(var(--accent), 0.08);
+  }
+  .css-j733up {
+	  color: rgba(var(--accent));
+  }
+  .MuiBox-root .css-q6zgp2 a {
+    color: rgba(var(--accent));
+  }
+  .MuiBox-root .css-q6zgp2 a:hover {
+    color: rgba(var(--deep-blue));
+  }
+  .css-1s2cwil {
+	  border-radius: var(--rounding-alt);
+	  font-weight: 600;
+	  color: rgba(var(--darkest));
+	  background-color: rgba(var(--dark-highlight));
+	  	background-image: linear-gradient(rgba(var(--jade-green),.35), rgba(var(--jade-green),.35));
+	  text-shadow: none;
+  }
+  .css-1fl3wau {
+	  border-radius: var(--rounding-alt);
+	  font-weight: 600;
+	  color: rgba(var(--darkest));
+	  background-color: rgba(var(--dark-highlight));
+	  background-image: linear-gradient(rgba(var(--honey-yellow),.35), rgba(var(--honey-yellow),.35));
+	  text-shadow: none;
+  }
+  .css-169h251 {
+	  border-radius: var(--rounding-alt);
+	  font-weight: 600;
+	  color: rgba(var(--darkest));
+	  background-color: rgba(var(--dark-highlight));
+	  background-image: linear-gradient(rgba(var(--cherry-red),.35), rgba(var(--cherry-red),0.35));
+	  text-shadow: none;
+  }
+  .css-1s2cwil .MuiAlert-icon, .css-1fl3wau .MuiAlert-icon, .css-169h251 .MuiAlert-icon {
+	  color: rgb(var(--darkest));
+  }
+
 
   /* Dashboard Devices > DLNA */
 
@@ -1265,8 +1324,6 @@
 	  background: rgba(var(--accent-off),.42);
   }
 
-  .missingIndicator, 
-  .unairedIndicator,
   .detailTable,
   .primaryImageWrapper > img,
   .toast,
@@ -1395,11 +1452,30 @@
   .playedIndicator {
     background: rgba(var(--darkest), 1)
   }
-
+  .cardIndicators {
+    position: static;
+	  contain: unset;
+  }
   .countIndicator, .playedIndicator {
     background: rgba(var(--accent), 1) !important;
     color: rgba(var(--darkest), 1) !important;
     font-weight: bold;
+    	position: absolute;
+	  	right: 0%;
+	  top: 0%;
+  }
+  .missingIndicator, .unairedIndicator {
+  	  box-shadow: 1px 1px 5px 1px rgba(var(--darkest),.5);
+  	  border-radius: var(--rounding) 0px !important;
+	  background: rgba(var(--accent-off));
+	  color: rgba(var(--darkest));
+	  	padding: 0.3em 0.6em;
+	  position: absolute;
+	  font-weight: bold;
+	  	text-shadow: none;
+	  	margin: 0;
+	  	left: 0%;
+	  top: 0%;
   }
 
   /* fix for changes in 10.9.x */
@@ -1825,12 +1901,6 @@
     }
   }
 
-  .missingIndicator, .unairedIndicator {
-      background: #AAAAAA;   /* hardcoded */
-      padding: .3em .6em;
-      color: rgba(var(--darkest));
-  }
-
 
   /* #### login frame #### */
 
@@ -2058,7 +2128,7 @@
 
   /* round and blur progress bar */
   .mdl-slider-background-flex {
-    background: rgba(var(--dark-highlight));
+    background: rgba(var(--dark-highlight),.7);
     border:0;
     display:-webkit-flex;
     display:flex;
@@ -2070,7 +2140,10 @@
     top:50%;
     width:100%;
     border-radius: 12px !important;
-    backdrop-filter: blur(9px) !important;
+    backdrop-filter: blur(4px) !important;
+  }
+  .mdl-slider-background-upper {
+	  background: rgba(var(--accent-off));
   }
 
   /* hides playbar markers */
@@ -2565,13 +2638,6 @@
   /* replaces Jellyfin logo */
   .adminDrawerLogo img { content: url(https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/logo/jellyfin-logo-light.png) !important; } imgLogoIcon { content: url(https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/logo/jellyfin-logo-light.png) !important; } .pageTitleWithLogo { background-image: url(https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/logo/jellyfin-logo-light.png) !important; } /* imgur link https://i.imgur.com/wHaGTm4.png */
 
-
-  /* Support for Jellyscrub plugin */
-
-  .chapterThumbTextContainer {
-      background: rgba(var(--dark),0.5) !important;
-  }
-
   /* fixes issue with Movies > Genres hover boxes */
   .sectionTitleTextButton > .sectionTitle {
 	  margin-bottom: .35em;
@@ -2662,7 +2728,15 @@
   .layout-desktop .nextUpSection .cardBox-bottompadded {
 	  margin-bottom: 1.3em !important;
   }
-
+  
+  /* changes the color of filter indicator */
+  .filterIndicator {
+	  background: rgba(var(--accent));
+	  color: rgba(var(--darkest));
+	  font-size: 80%;
+	  font-weight: 1000;
+	  background-image: linear-gradient(rgba(var(--honey-yellow),.55), rgba(var(--honey-yellow),.55));
+  }
 
 
 
@@ -3078,6 +3152,30 @@
 	  mask-image: linear-gradient(to top, rgba(var(--dark-apparent),0) 2%, rgba(var(--dark-apparent),0.08) 11%, rgba(var(--dark-apparent),0.25) 20%, rgba(var(--dark-apparent),0.45) 28%, rgba(var(--dark-apparent),0.6) 33%, rgba(var(--dark-apparent),1) 48%);
 	  background-position: 70%;
   }
+
+
+  /* --- ### PLUGINS ### --- */
+
+  /* -# Intro Skipper #-*/
+  .skip-button {
+	  background-color: rgba(var(--accent));
+	  color: rgba(var(--darkest));
+	  border-radius: calc(var(--rounding) + 5px);
+	  padding: 15px 26px;
+	  bottom: 20%;
+	  right: 8%;
+  }
+  .skip-button:hover {
+	  background-color: rgba(var(--accent),.85);
+  }
+
+  /* Support for Jellyscrub plugin */
+
+  .chapterThumbTextContainer {
+      background: rgba(var(--dark),0.5) !important;
+  }
+
+
 
   /* Phone & Tablet breakpoints */
 
