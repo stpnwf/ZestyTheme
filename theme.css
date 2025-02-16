@@ -509,9 +509,10 @@
   }
 
   .css-139vfv2 {
-	  background-color: rgba(var(--darkest),1);
-	  color: rgb(var(--white));
-	  background-image: linear-gradient(rgba(var(--accent), 0.1), rgba(var(--accent), 0.1));
+      background-color: rgba(var(--darkest),1);
+      color: rgb(var(--accent));
+      background-image: linear-gradient(rgba(var(
+	    --dark-highlight), 0.3), rgba(var(--dark-highlight), 0.3));
   }
 
   #server-subheader,
@@ -2745,10 +2746,21 @@
 
   ######################################################################################################################*/
 
-  .layout-mobile .headerHomeButton,
-  /* .layout-mobile .headerCastButton, */
-  .layout-mobile .headerSyncButton {
-    display: none;
+  @media (orientation: portrait) {
+    .layout-mobile .headerHomeButton,
+    .layout-mobile .headerSyncButton {
+      display: none;
+    }
+  }
+  @media (min-width: 30em) and (orientation: portrait) {
+    .layout-mobile .headerSyncButton {
+      display: unset;
+    }
+  }
+  @media (orientation: landscape) {
+    .layout-mobile .headerHomeButton {
+      display: none;
+    }
   }
 
   .layout-mobile .mainDrawerButton {
@@ -3174,8 +3186,59 @@
   .chapterThumbTextContainer {
       background: rgba(var(--dark),0.5) !important;
   }
-
-
+  
+  /* Support for Playback Reporting */
+  .mainAnimatedPages .content-primary > table:first-of-type {
+	  border: 1px solid rgba(var(--accent-off));
+	  padding: 6px;
+	  border-radius: calc(var(--rounding) + 4px);
+	  background-color: rgba(var(--accent-off),.7);
+	  color: rgba(var(--darkest));
+  }
+  .mainAnimatedPages .content-primary > table:nth-of-type(2) {
+	  background-color: rgba(var(--darkest));
+	  border-radius: var(--rounding-large);
+  }
+  #user_stats_chart_canvas,
+  #daily_usage_chart_canvas,
+  #hourly_usage_chart_canvas,
+  #weekly_usage_chart_canvas,
+  #duration_histogram_chart_canvas  {
+	  border-radius: calc(var(--rounding) + 4px);
+	  background-color: rgba(var(--darkest));
+	  padding: 10px;
+  }
+  #user_usage_report_table tr > td:first-child > img {
+	  background-color: rgba(var(--dark));
+	  border-radius: var(--rounding-alt);
+	  	color: rgba(var(--accent));
+	  margin-left: 4%;
+  }
+  #user_usage_report_table {
+    color: rgba(var(--accent));
+    padding: 4px;
+  }
+  .css-cw1wz5.Mui-selected {
+	  color: rgb(var(--darkest));
+	  background-color: rgba(var(--accent));
+	  border-radius: calc(var(--rounding) + 4px);
+  }
+  .css-cw1wz5 {
+	  color: rgba(var(--accent), 0.8);
+  }
+  .css-1qbqzso {
+    display: none;
+  }
+  #custom_query_text {
+	  width: 95%;
+	  height: 100px;
+	  background: rgb(var(--darkest));
+	  color: rgb(var(--accent));
+	  padding: 5px;
+	  outline: none;
+	  border-radius: 12px;
+	  margin-left: 1.5em;
+  }
 
   /* Phone & Tablet breakpoints */
 
@@ -3507,7 +3570,7 @@
       padding: 1.5rem 0rem 1rem;
     }
     .layout-mobile .infoWrapper .itemMiscInfo-primary, .layout-mobile .itemName {
-      padding: 0em 1.15em 0em;
+      padding: 0em 5% 0em; /*May break things - prev 1.15em */
     }
     .layout-mobile [dir=ltr] .mainDetailButtons {
       margin-bottom: 0;
@@ -3905,4 +3968,5 @@
   font-size: 1.75em;
   font-weight: 600;
 }
+
 
