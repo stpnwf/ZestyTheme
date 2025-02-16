@@ -13,3 +13,4 @@
 
 #loginPage {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/minimal-yellow.png") !important;}
 .layout-tv .backgroundContainer, .layout-desktop .backgroundContainer {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/gradients/yellow.png") no-repeat center center;}
+.sessionAppInfo img {filter: invert(40%) sepia(70%) saturate(285%) hue-rotate(30deg) brightness(150%) contrast(60%);}

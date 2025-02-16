@@ -1,15 +1,16 @@
 /* Cyan color scheme */
 
 :root {
-  --accent: 187, 241, 221;          /* BBF1DD */
-  --accent-off: 107, 138, 127;      /* 6B8A7F */
-  --dark: 27, 36, 33;               /* 1B2421 */
-  --darkest: 21, 28, 25;            /* 151C19 */
-  --dark-highlight: 64, 83, 76;     /* 40534C */
-  --dark-apparent: 32, 41, 37;      /* 202925 */
+  --accent: 187, 241, 221;         /* #BBF1DD */
+  --accent-off: 107, 138, 127;     /* #6B8A7F */
+  --dark: 27, 36, 33;              /* #1B2421 */
+  --darkest: 21, 28, 25;           /* #151C19 */
+  --dark-highlight: 64, 83, 76;    /* #40534C */
+  --dark-apparent: 32, 41, 37;     /* #202925 */
   
   --stylish-login: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/stylish-cyan.png");
 }
 
 #loginPage {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/minimal-cyan.png") !important;}
 .layout-tv .backgroundContainer, .layout-desktop .backgroundContainer {background: url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/gradients/cyan.png") no-repeat center center;}
+.sessionAppInfo img {filter: invert(45%) sepia(70%) saturate(250%) hue-rotate(117deg) brightness(140%) contrast(60%);}

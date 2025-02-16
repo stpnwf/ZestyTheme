@@ -489,6 +489,7 @@
 
   /* Fixes server info padding issue post 10.9.x in Dashboard*/
   .serverInfo.paperList {
+    color: rgba(var(--accent),.8);
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     padding-left: 1.65em;
@@ -1096,8 +1097,12 @@
   #dashboardPage .sessionNowPlayingInnerContent {
     color: rgb(var(--accent));
     padding: 1em;
+    	font-weight: 600;
   }
-
+  /* Blurs now playing img */
+  #dashboardPage .sessionNowPlayingContent-withbackground {
+	  filter: blur(2px);
+  }
   /* changes color of darken overlay in Activity devices */
   .darkenContent {
 	  background: rgba(var(--darkest),.55);
