@@ -1115,7 +1115,7 @@
   }
 
   /* changes colors of icons inside cards (eg: person icon inside card images without pictures) */
-  .cardImageIcon {
+  .cardImageIcon, .cardPadder .cardImageIcon {
     color: rgb(var(--dark));
   }
 
@@ -1626,6 +1626,9 @@
   }
   .defaultCardBackground5 {
 	  background-color: rgba(var(--dark-highlight), 1);
+  }
+  .cardBox:not(.visualCardBox) .cardPadder {
+    background-color: rgba(var(--dark-highlight), 1);
   }
 
   /*Syncplay*/
@@ -2148,9 +2151,6 @@
     border-radius: 12px !important;
     backdrop-filter: blur(4px) !important;
   }
-  .mdl-slider-background-upper {
-	  background: rgba(var(--accent-off));
-  }
 
   /* hides playbar markers */
   .sliderMarker.watched {
@@ -2165,7 +2165,7 @@
   /* round playbar buffer */
 
   .mdl-slider-background-upper {
-    background:hsla(0,0%,100%,.4);
+	  background: rgba(var(--accent-off));
     bottom:0;
     left:0;
     position:absolute;
@@ -2814,7 +2814,6 @@
 
   .layout-mobile .itemTags,
   .layout-mobile .itemName.originalTitle,
-  .layout-mobile .itemExternalLinks,
   .layout-mobile .writersGroup,
   .layout-mobile .studiosGroup,
   #seriesAirTime {
@@ -3175,15 +3174,19 @@
 
   /* -# Intro Skipper #-*/
   .skip-button {
-	  background-color: rgba(var(--accent));
+	  background-color: rgba(var(--white));
 	  color: rgba(var(--darkest));
 	  border-radius: calc(var(--rounding) + 5px);
 	  padding: 15px 26px;
 	  bottom: 20%;
 	  right: 8%;
   }
+  .layout-mobile .skip-button {
+    bottom: 28%;
+    right: 2%;
+  }
   .skip-button:hover {
-	  background-color: rgba(var(--accent),.85);
+	  background-color: rgba(var(--accent));
   }
 
   /* Support for Jellyscrub plugin */
@@ -3973,5 +3976,3 @@
   font-size: 1.75em;
   font-weight: 600;
 }
-
-
