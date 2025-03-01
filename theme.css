@@ -3199,7 +3199,7 @@
   .mainAnimatedPages .content-primary > table:first-of-type {
 	  border: 1px solid rgba(var(--accent-off));
 	  padding: 6px;
-	  border-radius: calc(var(--rounding) + 4px);
+	  border-radius: calc(var(--rounding) + 4px) !important;
 	  background-color: rgba(var(--accent-off),.7);
 	  color: rgba(var(--darkest));
   }
