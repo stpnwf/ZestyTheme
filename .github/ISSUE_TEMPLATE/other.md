@@ -14,4 +14,4 @@ and what device type it applies to, if applicable.
 
 **Screenshots**
 I can't read minds... yet...🔮
-When in doubt, please include an image of what you are talking about.
+When in doubt, please include an image of what you are talking about. 🙂
