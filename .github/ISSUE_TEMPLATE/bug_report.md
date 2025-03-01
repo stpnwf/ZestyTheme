@@ -8,14 +8,13 @@ assignees: ''
 ---
 
 **Describe the bug**
-A clear and concise description of what the bug is.
+A clear and concise description of the bug.
 
 **To Reproduce**
 If applicable, list the steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See 🐞🪳🪲
+1. Go to the pantry,
+2. Open Cereal Box,
+3. See 🐞🪳🪲
 
 **On a Smartphone or Tablet?**
  - Device:   [e.g. iPhone 12, iPad Air, etc]
