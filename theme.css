@@ -3976,3 +3976,42 @@
   font-size: 1.75em;
   font-weight: 600;
 }
+
+
+/*
+ * Fix: Detailed page image missing for actor and season overview pages.
+ *
+ * Targets pages to unset the display: none that may have been applied
+ * over-zealously.
+ *
+ * Notes:
+ *  - "#itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide)"
+ *    is the actor page, it's the only (needs checking) detail page
+ *    that has a hidden play button.
+ *  - "#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3)"
+ *    is the season overview page, it's the only (needs checking) detail
+ *    page where the header has a H3 element
+**/
+#itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide) .card,
+#itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide) .cardBox,
+#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3) .card,
+#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3) .cardBox {
+  display: block;
+}
+
+#itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide),
+#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3) {
+  width: 90%;
+}
+
+#itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide) .card,
+#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3) .card {
+  width: 20vw;
+  position: absolute;
+  left: 50vw;
+  right: 0;
+  top: max(39vh, 120%);
+  bottom: auto;
+  margin: auto;
+  transform: translateY(-50%);
+}
