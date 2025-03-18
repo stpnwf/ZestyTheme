@@ -4008,10 +4008,15 @@
 #itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3) .card {
   width: 20vw;
   position: absolute;
-  left: 50vw;
   right: 0;
   top: max(39vh, 120%);
   bottom: auto;
   margin: auto;
   transform: translateY(-50%);
 }
+  #itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide) .card {
+    left: 50vw;
+  }
+  #itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3) .card {
+    left: 57.5vw;
+  }
