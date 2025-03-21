@@ -3988,24 +3988,24 @@
  *  - "#itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide)"
  *    is the actor page, it's the only (needs checking) detail page
  *    that has a hidden play button.
- *  - "#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3)"
+ *  - "#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName)"
  *    is the season overview page, it's the only (needs checking) detail
- *    page where the header has a H3 element
+ *    page where the header has a h3.itemName element
 **/
 #itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide) .card,
 #itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide) .cardBox,
-#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3) .card,
-#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3) .cardBox {
+#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName) .card,
+#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName) .cardBox {
   display: block;
 }
 
 #itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide),
-#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3) {
+#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName) {
   width: 90%;
 }
 
 #itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide) .card,
-#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3) .card {
+#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName) .card {
   width: 20vw;
   position: absolute;
   right: 0;
