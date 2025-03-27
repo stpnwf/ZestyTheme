@@ -1910,7 +1910,38 @@
     }
   }
 
-
+  /* Zen browser fix */
+  @media (min-width: 87.5em) and (max-width: 105em) {
+	  .layout-desktop .listItemImage.listItemImage-large.itemAction.lazy {
+		  height: 127px;
+		  width: 227px;
+	  }
+	  .layout-desktop.secondary.listItem-overview.listItemBodyText {
+		  height: 5.5em;
+		  margin: 0;
+	  }
+  }
+  @media (min-width: 45.5em) and (max-width: 87.4999em) {
+	  .layout-desktop .listItemImage.listItemImage-large.itemAction.lazy {
+		  height: 120px;
+		  width: 190px;
+	  }
+	  .layout-desktop .listItem-content {
+		  height: 130px;
+	  }
+	  .layout-desktop .listItem-content .listItemBody {
+		  height: 8em;
+	  }
+  }
+  /* Fix for logos on 2K screens */
+  @media (min-width: 130em) {
+    .layout-desktop .detailPageWrapperContainer {
+        margin-top: -84vh;
+    }
+    .layout-desktop .detailLogo {
+        width: 36em;
+    }
+    
   /* #### login frame #### */
 
 
@@ -3976,3 +4007,4 @@
   font-size: 1.75em;
   font-weight: 600;
 }
+
