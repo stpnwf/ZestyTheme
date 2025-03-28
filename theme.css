@@ -4004,18 +4004,23 @@
   width: 90%;
 }
 
+#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName:not(.focuscontainer-x)) .detailImageContainer {
+  position: sticky;
+  top: 0;
+}
+
 #itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide) .card,
 #itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName:not(.focuscontainer-x)) .card {
   width: 20vw;
-  position: absolute;
   right: 0;
-  top: max(39vh, 120%);
+  top: 50dvh;
   bottom: auto;
   margin: auto;
   transform: translateY(-50%);
 }
   #itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide) .card {
-    left: 50vw;
+    left: 57.5vw;
+    position: fixed !important;
   }
   #itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName:not(.focuscontainer-x)) .card {
     left: 57.5vw;
