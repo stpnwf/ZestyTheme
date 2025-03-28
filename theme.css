@@ -3988,24 +3988,24 @@
  *  - "#itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide)"
  *    is the actor page, it's the only (needs checking) detail page
  *    that has a hidden play button.
- *  - "#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName)"
+ *  - "#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName:not(.focuscontainer-x)"
  *    is the season overview page, it's the only (needs checking) detail
- *    page where the header has a h3.itemName element
+ *    page where the header has a h3.itemName:not(.focuscontainer-x) element
 **/
 #itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide) .card,
 #itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide) .cardBox,
-#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName) .card,
-#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName) .cardBox {
+#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName:not(.focuscontainer-x)) .card,
+#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName:not(.focuscontainer-x)) .cardBox {
   display: block;
 }
 
 #itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide),
-#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName) {
+#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName:not(.focuscontainer-x)) {
   width: 90%;
 }
 
 #itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide) .card,
-#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName) .card {
+#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName:not(.focuscontainer-x)) .card {
   width: 20vw;
   position: absolute;
   right: 0;
@@ -4017,6 +4017,6 @@
   #itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide) .card {
     left: 50vw;
   }
-  #itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3) .card {
+  #itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName:not(.focuscontainer-x)) .card {
     left: 57.5vw;
   }
