@@ -4035,7 +4035,9 @@
   width: 90%;
 }
 
-#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName:not(.focuscontainer-x)) .detailImageContainer {
+/* Progressive enhancement: when there are 3 or more episodes, use sticky positioned poster */
+#itemDetailPage:has(.childrenItemsContainer > :nth-child(3))
+.detailPagePrimaryContainer:has(.nameContainer > h3.itemName:not(.focuscontainer-x)) .detailImageContainer {
   position: sticky;
   top: 0;
 }
@@ -4055,4 +4057,5 @@
   }
   #itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName:not(.focuscontainer-x)) .card {
     left: 57.5vw;
+    top: max(50dvh, 380px);
   }
