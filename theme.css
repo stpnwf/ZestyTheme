@@ -4015,14 +4015,15 @@
  * Targets pages to unset the display: none that may have been applied
  * over-zealously.
 **/
-
-/* Actor/actress page */
-#itemDetailPage .detailImageContainer > .portraitCard:has(.material-icons.person),
-#itemDetailPage .detailImageContainer > .portraitCard > .cardBox:has(.material-icons.person),
-/* Season overview */
-#itemDetailPage .detailImageContainer > .portraitCard:has(.material-icons.folder),
-#itemDetailPage .detailImageContainer > .portraitCard > .cardBox:has(.material-icons.folder) {
-  display: block;
+@media (min-width: 820px) {
+  /* Actor/actress page */
+  #itemDetailPage .detailImageContainer > .portraitCard:has(.material-icons.person),
+  #itemDetailPage .detailImageContainer > .portraitCard > .cardBox:has(.material-icons.person),
+  /* Season overview */
+  #itemDetailPage .detailImageContainer > .portraitCard:has(.material-icons.folder),
+  #itemDetailPage .detailImageContainer > .portraitCard > .cardBox:has(.material-icons.folder) {
+    display: block;
+  }
 }
 
 #itemDetailPage .detailPagePrimaryContainer:has(
@@ -4031,7 +4032,7 @@
     .material-icons.folder
   )
 ) {
-  width: 90%;
+  width: 90vw;
 }
 
 /* Progressive enhancement: when there are 3 or more episodes, use sticky positioned season poster */
@@ -4048,7 +4049,7 @@
     .material-icons.folder
   )
 ) {
-  width: 20vw;
+  width: clamp(15vw, 33.33dvh, 20vw);
   right: 0;
   top: 50dvh;
   bottom: auto;
@@ -4064,4 +4065,8 @@
   #itemDetailPage .detailImageContainer > .portraitCard:has(.material-icons.folder) {
     left: 57.5vw;
     top: max(50dvh, 380px);
+  }
+  #itemDetailPage:has(.childrenItemsContainer > :last-child:nth-child(-n + 2))
+  .detailImageContainer > .portraitCard:has(.material-icons.folder) {
+    top: max(35dvh, 340px);
   }
