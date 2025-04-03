@@ -4014,36 +4014,40 @@
  *
  * Targets pages to unset the display: none that may have been applied
  * over-zealously.
- *
- * Notes:
- *  - "#itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide)"
- *    is the actor page, it's the only (needs checking) detail page
- *    that has a hidden play button.
- *  - "#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName:not(.focuscontainer-x)"
- *    is the season overview page, it's the only (needs checking) detail
- *    page where the header has a h3.itemName:not(.focuscontainer-x) element
 **/
-#itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide) .card,
-#itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide) .cardBox,
-#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName:not(.focuscontainer-x)) .card,
-#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName:not(.focuscontainer-x)) .cardBox {
+
+/* Actor/actress page */
+#itemDetailPage .detailImageContainer > .portraitCard:has(.material-icons.person),
+#itemDetailPage .detailImageContainer > .portraitCard > .cardBox:has(.material-icons.person),
+/* Season overview */
+#itemDetailPage .detailImageContainer > .portraitCard:has(.material-icons.folder),
+#itemDetailPage .detailImageContainer > .portraitCard > .cardBox:has(.material-icons.folder) {
   display: block;
 }
 
-#itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide),
-#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName:not(.focuscontainer-x)) {
+#itemDetailPage .detailPagePrimaryContainer:has(
+  .detailImageContainer .portraitCard :where(
+    .material-icons.person,
+    .material-icons.folder
+  )
+) {
   width: 90%;
 }
 
-/* Progressive enhancement: when there are 3 or more episodes, use sticky positioned poster */
+/* Progressive enhancement: when there are 3 or more episodes, use sticky positioned season poster */
 #itemDetailPage:has(.childrenItemsContainer > :nth-child(3))
-.detailPagePrimaryContainer:has(.nameContainer > h3.itemName:not(.focuscontainer-x)) .detailImageContainer {
+.detailImageContainer:has(.portraitCard .material-icons.folder) {
   position: sticky;
   top: 0;
 }
 
-#itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide) .card,
-#itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName:not(.focuscontainer-x)) .card {
+/* Main portrait poster/photo */
+#itemDetailPage .detailImageContainer > .portraitCard:has(
+  :where(
+    .material-icons.person,
+    .material-icons.folder
+  )
+) {
   width: 20vw;
   right: 0;
   top: 50dvh;
@@ -4051,11 +4055,13 @@
   margin: auto;
   transform: translateY(-50%);
 }
-  #itemDetailPage .detailPagePrimaryContainer:has(.btnPlay.hide) .card {
+  /* Actor/actress page photo */
+  #itemDetailPage .detailImageContainer > .portraitCard:has(.material-icons.person) {
     left: 57.5vw;
     position: fixed !important;
   }
-  #itemDetailPage .detailPagePrimaryContainer:has(.nameContainer > h3.itemName:not(.focuscontainer-x)) .card {
+  /* Season overview poster */
+  #itemDetailPage .detailImageContainer > .portraitCard:has(.material-icons.folder) {
     left: 57.5vw;
     top: max(50dvh, 380px);
   }
