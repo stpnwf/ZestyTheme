@@ -4035,6 +4035,13 @@
   width: 90vw;
 }
 
+/*
+ * Set a min-height (same height to be in line with bottom of poster) for season
+ * overview's episode list to guarantee poster will not overlap cast/crew section.
+ */
+#itemDetailPage:has(.portraitCard .material-icons.folder) #childrenContent {
+	min-height: clamp(15vw * .75, 33.33svh * .75, 20vw * .75);
+}
 /* Progressive enhancement: when there are 3 or more episodes, use sticky positioned season poster */
 #itemDetailPage:has(.childrenItemsContainer > :nth-child(3))
 .detailImageContainer:has(.portraitCard .material-icons.folder) {
@@ -4049,9 +4056,9 @@
     .material-icons.folder
   )
 ) {
-  width: clamp(15vw, 33.33dvh, 20vw);
+  width: clamp(15vw, 33.33svh, 20vw);
   right: 0;
-  top: 50dvh;
+  top: 50svh;
   bottom: auto;
   margin: auto;
   transform: translateY(-50%);
@@ -4064,9 +4071,5 @@
   /* Season overview poster */
   #itemDetailPage .detailImageContainer > .portraitCard:has(.material-icons.folder) {
     left: 57.5vw;
-    top: max(50dvh, 380px);
-  }
-  #itemDetailPage:has(.childrenItemsContainer > :last-child:nth-child(-n + 2))
-  .detailImageContainer > .portraitCard:has(.material-icons.folder) {
-    top: max(35dvh, 340px);
+    top: max(50svh, 380px);
   }
