@@ -917,7 +917,7 @@
 		background-image: linear-gradient(rgba(var(--accent), 0.1), rgba(var(--accent), 0.1));
 		font-weight: 600;
 		padding: 8px 16px;
-		text-shadow: 0px 0px 4px rgba(0,0,0,0) !important;
+		text-shadow: none;
 		color: rgb(var(--darkest));
 		background-color: rgb(var(--dark-highlight));
 	}
@@ -2240,7 +2240,7 @@
   .toast {
 	  background-color: rgba(var(--accent-off), 0.75) !important;
 	  color: rgba(var(--darkest), 1) !important;
-	  text-shadow: 0px 0px 4px rgba(0,0,0,0) !important;
+	  text-shadow: none;
 	  font-weight: bold;
   }
   .appfooter,
