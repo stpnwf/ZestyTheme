@@ -3201,11 +3201,13 @@
   }
 
   /* Limits the number of displayed posters in Genres tab to fit in one row */
-  @media (max-width: 43.75em) { #genresTab .card:nth-child(n+4) { display: none } }
-  @media (max-width: 50em) { #genresTab .card:nth-child(n+5) { display: none } }
-  @media (max-width: 75em) { #genresTab .card:nth-child(n+6) { display: none } }
-  @media (max-width: 87.5em) { #genresTab .card:nth-child(n+7) { display: none } }
-  @media (min-width: 87.5em) { #genresTab .card:nth-child(n+8) { display: none } }
+  .layout-desktop {
+    @media (max-width: 43.75em) { #genresTab .card:nth-child(n+4) { display: none } }
+    @media (max-width: 50em) { #genresTab .card:nth-child(n+5) { display: none } }
+    @media (max-width: 75em) { #genresTab .card:nth-child(n+6) { display: none } }
+    @media (max-width: 87.5em) { #genresTab .card:nth-child(n+7) { display: none } }
+    @media (min-width: 87.5em) { #genresTab .card:nth-child(n+8) { display: none } }
+  }
 
 
   /* --- ### PLUGINS ### --- */
