@@ -1,7 +1,7 @@
 # ZestyTheme
 
 A minimal and elegant theme for Jellyfin based on/inspired by [Ultrachromic](https://github.com/CTalvio/Ultrachromic), [Glassmorphism](https://github.com/alexyle/jellyfin-theme), [Scyfin](https://github.com/loof2736/scyfin), [JellyTheme](https://github.com/alexyle/jellyfin-theme) & [Zombie](https://github.com/MakD/zombie-release/tree/main).
- 
+
 **Now with two login wallpaper options: minimal and stylish!**<br>
 Compatible with 10.9.10+ & Tablets!
 
@@ -31,11 +31,11 @@ To add the theme to Jellyfin, copy the following line to Dashboard > General > C
 ```
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/theme.css');
 ```
-Then, if you haven't already, enable Backdrops for _every_ device using this theme (Settings > Display > Backdrops).¹ 
+Then, if you haven't already, enable Backdrops for _every_ device using this theme (Settings > Display > Backdrops).¹
 
 ## Color schemes
 
-Add **one** of the following @import lines _if_ you'd like to change the default colors to one of the presets below (optional): 
+Add **one** of the following @import lines _if_ you'd like to change the default colors to one of the presets below (optional):
 
 ### Cyan
 <img src="./images/colorschemes/cyan.png" alt="default" width="30%"/>
@@ -248,13 +248,13 @@ This is a comparison between the minimal(default) and stylish versions of the lo
 
 ---
 
-### Notes: 
+### Notes:
 
  ¹ You must enable Backdrops on *every* device you plan to use this on, otherwise theme **WILL** look broken.
 
  This theme looks best with background images whose content is skewed the right. [As demonstrated here](./images/extras/bg-guide.jpg).
 
- I don't use the Live TV feature and neither Music Videos, so theme may look broken there. Not opposed to theming it, but hard to since I don't use it... 
+ I don't use the Live TV feature and neither Music Videos, so theme may look broken there. Not opposed to theming it, but hard to since I don't use it...
 
  I plan to get to theming TV mode (Settings > Display > Display Mode > TV) soon™. Looks broken right now.
 
@@ -266,11 +266,11 @@ This is a comparison between the minimal(default) and stylish versions of the lo
 
  Theme is still **WIP**, and may look broken in some areas. Please report any issues.
 
- I am _not_ knowledgeable in CSS, but if the end result looks how I want it to, despite how hacky or messy the code may be, that's a win in my book... PRs are welcome.
+ I am _not_ the most knowledgeable in CSS, but I will do my best to maintain it... PRs are welcome :)
 
 ---
 
-**Things I'd like to do, if I can figure out how to (HELP WANTED):** 
+**Things I'd like to do, if I can figure out how to (HELP WANTED):**
 
  Add profile pics back:
 
@@ -280,17 +280,16 @@ This is a comparison between the minimal(default) and stylish versions of the lo
 </figure>
 
  Add season posters back:
- 
+
 <figure>
     <img src="./images/season.jpg" alt="season-poster" width="65%"/>
     <figcaption>It doesn't seem possible to remove just the poster while keeping the profile pics & season posters...</figcaption>
 </figure>
 
  Turn seasons into a carousel to prevent this behavior:
- 
+
 <img src="./images/caroussel.jpg" alt="season-caroussel" width="65%"/>
 
  Make it so there is no "overflowing" entries in Genres after I increased Poster size
 
 <img src="./images/genres.jpg" alt="genres" width="65%"/>
-
