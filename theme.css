@@ -34,7 +34,7 @@
   }
 
   .detailLogo {
-	  height: 16vh;
+	  height: 5vh;
 	  position: absolute;
 	  right: 25vw;
 	  top: 10vh;
@@ -67,7 +67,7 @@
     opacity: 1;
   }
   .layout-desktop .detailPageWrapperContainer {
-    margin-top: -89vh;
+    margin-top: -80vh;
     /* inicial: 73 */
   }
 
