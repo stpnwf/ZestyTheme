@@ -91,6 +91,7 @@
 
   .layout-desktop .detailPagePrimaryContent {
     width: 45%;
+	display: inherit;detailRibbon
   }
 
   .layout-desktop .detailPagePrimaryContainer {
@@ -1497,6 +1498,7 @@
   /*Colors for Title ribbon */
   .layout-desktop .detailRibbon {
       background: rgba(0, 0, 0, 0);
+	  display: inherit;
   }
   /* Item backdrop overlay color */
   .itemBackdrop::after {
