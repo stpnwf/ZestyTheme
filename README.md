@@ -35,7 +35,7 @@ To add the theme to Jellyfin `v10.11+`, copy the following line to Dashboard > B
 <br>
 
 <details>
-<summary>For legacy Jellyfin versions (v10.10), add the following line **instead**:</summary>
+<summary>For older Jellyfin versions (v10.10), add the following line instead:</summary>
 
 Jellyfin `v10.10.x`:
 <br>
