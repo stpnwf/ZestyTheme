@@ -394,7 +394,7 @@ a.overview-expand.emby-button {
 /* Add padding to description*/
 .layout-desktop .detailSectionContent {
     /*   margin-top: 1.25vw !important; */
-    padding: 0vw 0vw 0.25vw 0vw !important;
+    padding: 1vw 0vw 0.25vw 0vw !important;
 }
 
 /* makes description and tagline bold */
@@ -1608,8 +1608,10 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 
   /*Colors for Title ribbon */
   .layout-desktop .detailRibbon {
-      background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0);
+  	margin-top: -.7em;
 	  display: inherit;
+	  
   }
   /* Item backdrop overlay color */
   .itemBackdrop::after {
