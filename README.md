@@ -31,16 +31,17 @@ To add the theme to Jellyfin `v10.11+`, copy the following line to Dashboard > B
 ```
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/theme.css');
 ```
-<details>
- <summary>For legacy Jellyfin versions (v10.10) add the following line **instead**:</summary>
- <div class="collapsible-content">
+
 <br>
+
+<details>
+<summary>For legacy Jellyfin versions (v10.10), add the following line instead:</summary>
+
 Jellyfin v10.10.x:
 <br>
 ```
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@legacy/v10.10/theme.css');
 ```
- </div>
 </details>
 
 Then, if you haven't already, enable Backdrops for _every_ device using this theme (Settings > Display > Backdrops).¹
