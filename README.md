@@ -3,7 +3,7 @@
 A minimal and elegant theme for Jellyfin based on/inspired by [Ultrachromic](https://github.com/CTalvio/Ultrachromic), [Glassmorphism](https://github.com/alexyle/jellyfin-theme), [Scyfin](https://github.com/loof2736/scyfin), [JellyTheme](https://github.com/alexyle/jellyfin-theme) & [Zombie](https://github.com/MakD/zombie-release/tree/main).
 
 **Now with two login wallpaper options: minimal and stylish!**<br>
-Compatible with 10.9.10+ & Tablets!
+Compatible with 10.11+ & Tablets!
 
 ---
 
@@ -35,9 +35,9 @@ To add the theme to Jellyfin `v10.11+`, copy the following line to Dashboard > B
 <br>
 
 <details>
-<summary>For legacy Jellyfin versions (v10.10), add the following line instead:</summary>
+<summary>For legacy Jellyfin versions (v10.10), add the following line **instead**:</summary>
 
-Jellyfin v10.10.x:
+Jellyfin `v10.10.x`:
 <br>
 ```
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@legacy/v10.10/theme.css');
