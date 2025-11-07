@@ -26,11 +26,21 @@ Two login wallpaper options: Minimal and Stylish.
 
 ## Installing
 
-To add the theme to Jellyfin, copy the following line to Dashboard > General > Custom CSS:
+To add the theme to Jellyfin *v10.11+*, copy the following line to Dashboard > Branding² > Custom CSS:
 
 ```
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/theme.css');
 ```
+<details>
+ <summary>For legacy Jellyfin versions (v10.10) add the following line **instead**:</summary>
+ <div class="collapsible-content">
+Jellyfin v10.10.x:
+```
+@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/theme.css');
+```
+ </div>
+</details>
+
 Then, if you haven't already, enable Backdrops for _every_ device using this theme (Settings > Display > Backdrops).¹
 
 ## Color schemes
@@ -250,9 +260,11 @@ This is a comparison between the minimal(default) and stylish versions of the lo
 
 ### Notes:
 
- ¹ You must enable Backdrops on *every* device you plan to use this on, otherwise theme **WILL** look broken.
+ ¹ You *must* enable Backdrops on *every* device you plan to use this on, otherwise theme **WILL** look broken.
 
- This theme looks best with background images whose content is skewed the right. [As demonstrated here](./images/extras/bg-guide.jpg).
+ ² On Jellyfin versions below v10.11 the custom CSS is located at Dashboard > General > Custom CSS.
+
+ This theme looks best with background images whose content is skewed right. [As demonstrated here](./images/extras/bg-guide.jpg).
 
  I don't use the Live TV feature and neither Music Videos, so theme may look broken there. Not opposed to theming it, but hard to since I don't use it...
 
