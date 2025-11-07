@@ -96,7 +96,8 @@ h4 {
 
 .layout-desktop .detailPagePrimaryContent {
     width: 45%;
-}
+	display: inherit;
+  }
 
 .layout-desktop .detailPagePrimaryContainer {
     display: inline-table;
@@ -1605,14 +1606,15 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 
 /* colorful */
 
-/*Colors for Title ribbon */
-.layout-desktop .detailRibbon {
-    background: rgba(0, 0, 0, 0);
-}
-/* Item backdrop overlay color */
-.itemBackdrop::after {
-    background: rgba(0, 0, 0, 0) !important;
-}
+  /*Colors for Title ribbon */
+  .layout-desktop .detailRibbon {
+      background: rgba(0, 0, 0, 0);
+	  display: inherit;
+  }
+  /* Item backdrop overlay color */
+  .itemBackdrop::after {
+    background: rgba(0,0,0,0) !important;
+  }
 
 /*Accenting*/
 
